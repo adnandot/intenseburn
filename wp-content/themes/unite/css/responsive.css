@@ -1,0 +1,673 @@
+@media screen and (max-width:999px){
+	.nav ul{background-color:#f95a00}
+	.social-header{ padding-right:15px;}
+	.header .header-inner .nav ul li a{padding:5px 10px !important; display:block; color:#fff;}
+	#main.site-main{ width:100%;}
+	.login-area{ width:100%;}
+	.header{ margin:auto;}
+	.social-area{ width:100%;}
+	header#masthead{ padding:0px;}
+	.site-branding{ padding:0px;}
+	.social-header{ padding:0px;}
+	.faq_content .col-md-6{ width:100%; padding-bottom:15px;}
+	header .site-branding{ float:left; width:40%; padding-left:15px;}
+	header .social-header{ float:left; width:60%;}
+	.theteampage .team-cat-nutritions, .theteampage .team-cat-fitness{ min-height:10px;}	
+	.toggle a:hover{color:#ffffff !important;}
+	.nav{display:block !important;}
+	.header .header-inner .nav{float:none; margin:0; position:relative; overflow-x:hidden; }
+	.nav ul{color:#000; width:100%; float:none !important;}
+	.header .header-inner .nav ul li{border-top:1px #cccccc solid; display:block; float:none; text-align:left;}
+	.header .header-inner .nav ul li a{padding:5px 10px !important; display:block; color:#000;}
+	.nav ul li a:hover{color:#00a8ff;}
+	.header .header-inner ul.sub-menu{ margin-left:10px;}
+	.nav ul li ul, .nav ul li ul ul{ display:block !important;}
+	.nav ul li ul li a:before{content:"\00BB \00a0";}
+	.nav ul li ul li a{padding-left:20px !important;}
+	.nav ul li ul li ul li a{padding-left:30px !important;}
+	.navbar-header .navbar-toggle{ display:block;}
+	.navbar-collapse.collapse{ display:none !important;}
+	.navbar-collapse.collapse.in{ display:block !important;}
+	.header-inner nav 	.container .nav{ clear:both; display:block;}
+	.border_right{ border-right:0px none; padding:0px;}
+	.theteampage .page-header{ padding-top:15px;}
+	.padingrightnond{ width:100%; padding:0px;}
+	.right_padingnone{ width:100%; padding:20px 0 0 0;}
+	.theteampage .team-cat-nutritions, .theteampage .team-cat-fitness{ min-height:10px;}	
+	.addrecipe_page .acf-field .acf-label{ width:100%;}
+	.addrecipe_page .acf-field .acf-input{ width:100%; padding-left:0px;}
+	.bottom_btn{ width:100%;}
+	.starttodaypage #slider_inner{ width:100%;}
+	.left, .right{ text-align:center; }
+	.loginlostpass ul.tml-action-links li{width:100%; margin-bottom:20px;}
+	.login-submit input{ width:100%;}
+	.login-submit{ margin:50px 0 20px;} 
+	.addrecipe_page .add-recipe .acf-form-fields label{ width:100%; text-align:left;}
+	.boxintenseburn{ width:100%;} 
+	.starttodaypage #slider{ width:100%;}
+	section.module.parallax{ height:auto;}
+	.memberarea-pole{ width:74%;}
+	.container.blogpagecontent{ padding:0px;}
+	.nutrition-right-side-image .title{ padding-top:25px;}
+	.meal-plan-information{ height:auto;}
+	.theteampage.shop .nutritions_team{ margin:0 -15px;}
+	.theteampage.shop .nutritions_team .row_no{ margin:0 -15px;}
+	.theteampage.shop .nutritions_team .row_margin{ margin:35px -19px;}
+	.member-area-single img{ max-width:100%;}
+	.videoDescription .change-level > span{ font-size:18px; margin:0px 4px;}
+	.change-level > span{ float:none;}
+	.change-level{ text-align:center;}
+	.header .header-inner .navbar .nav{ padding-top:0px;} 	
+	.header .header-inner .nav ul li:hover  { color:#fff !important; background:#fe9808;}
+	.header .header-inner .nav ul li a:hover { color:#fff !important; background:none;}
+	.header .header-inner .nav ul li.current_page_item { color:#fff !important; background:#fe9808;}
+	.header .header-inner .nav ul li.current_page_item a{ color:#fff !important; background:#fe9808;}
+	
+	.header .header-inner .nav ul li a:hover { border-bottom:0px none #dd7418; color:#fff !important;}
+    .header .header-inner .nav ul li.current_page_item a { border-bottom:0px none #dd7418; color:#fff !important;}
+
+
+}
+.navigation.post-navigation .nav-links i.fa { margin:6px 10px 0px 0; float:left;}
+.navigation.post-navigation .nav-links .nav-next i.fa { margin:6px 0px 0px 10px; float:right;}
+#slider .top-bar h2{ color:#ffffff}
+#slider .top-bar h2{font-size:40px}
+#slider .top-bar p{ color:#ffffff}
+#slider .top-bar p{font-size:16px}
+h2.section_title{font-size:36px}
+h1, h2, h3, h4, h5, h6, section h1, #services-box h2, .contact-banner h3, .team-col h3, .newsletter h2{ color:#ffffff}
+a{color:#ff4e1c;}#slider .top-bar a.read:hover{background-color:#ff4e1c}
+a:hover, .recent-post li a:hover{color:#ffffff;}
+.footer .footer-col-1 h2, .footer-col-3 h2{}.footer .footer-col-1 h2, .footer-col-3 h2{color:#ffffff}
+.copyright-txt{ color:#ffffff}.design-by{ color:#ffffff}#services-box{border:2px solid #ffffff;}
+#services-box:hover{border:2px solid #ff4e1c;}
+#slider .top-bar a, .contact-banner a, input.search-submit, .post-password-form input[type=submit]{background-color:#ff4e1c;}
+#slider .top-bar a:hover, .contact-banner a:hover, input.search-submit:hover, .post-password-form input[type=submit]:hover{background-color:#ef4313;}
+#slider .top-bar a, .contact-banner a{color:#ffffff;}h3.widget-title{color:#ffffff;}.copyright-wrapper{background-color:#272727;}
+.nivo-directionNav a{background:url(../images/slide-nav.png) no-repeat scroll 0 0 #cccccc;}.nivo-controlNav a{background-color:#cccccc}
+.nivo-controlNav a.active{background-color:#ff4e1c}.phone-no strong{color:#ff4e1c}#slider .top-bar a.read{border:2px solid #ff4e1c}
+.read-more{border:2px solid #ff4e1c}#services-box:hover .read-more{background-color:#ff4e1c}
+#slider .top-bar h2 span, #services-box h2 span, h2.section_title span, .footer-col-3 h2 span, .accordion-box h2.active, .latest-news .read-more, .testimonial-box h2, .phone-no strong, .recent-post li span, .office_timing .time_row .day, .time_row .title, .footer-col-2 ul li:hover a, .footer-col-2 ul li.current_page_item a, .news-box:hover .post-date, .copyright-txt span{color:#ff4e1c}
+.accordion-box h2.active::before, .team-col:hover, .news .newsthumb, .post-date, #commentform input#submit, .wpcf7 form input[type='submit'], .main-form-area input[type='submit']{background-color:#f85f01; border-bottom:5px solid #ce4e00; border-radius:10px; font-size:20px; font-weight:700; padding:11px 22px 8px; text-transform:uppercase; border-color:#ce4e00;}
+.news-box .post-date{border-color:#ff4e1c}
+.news-box, .latest-news .read-more{background-color:#ffffff}
+.team-col .social-links a{background-color:#ffffff}.testimonial-box{border-color:#565555}.news h2, .wpcf7 form input[type='submit'], .main-form-area input[type='submit']{border-color:#eceaeb}#footer-wrapper{background: url(../images/footer.jpg)}.recent-post li, .office_timing .time_row, .time_table .time_row{border-color:#3b3b3b}.photobooth .gallery ul li:hover{ background:#ff4e1c; background:url(../images/camera-icon.png) 50% 50% no-repeat #ff4e1c; }
+
+@media screen and (max-width:767px) {
+	*{box-sizing:border-box;}
+	.starttodaypage h2.section_title{ padding:0px;}
+	#oncejointyou{ padding-left:0px;}
+	#loginform label input[type="radio"]{ margin:1px 6px 0 0 !important;}
+	.addrecipe_page .add-recipe .acf-form-fields input{ margin:4px 10px 0 0 !important;}
+	.addrecipe_page .add-recipe .acf-input-wrap li{ width:50%; float:left;}
+	.starttodaypage #oncejointyou{ padding:30px 0;}
+	.left, .right{ float:none;}
+	.pricing_table.pcol1 .price_col{width:100%;}
+	.pricing_table.pcol2 .price_col{width:100%;}
+	.pricing_table.pcol3 .price_col{width:100%;}
+	.pricing_table.pcol4 .price_col{width:100%;}
+	.pricing_table.pcol5 .price_col{width:100%;}
+	.highlight{margin-top:10px !important;}
+	.news .newsthumb{ float:none; width:auto; margin-right:0;}
+	.latest-news .read-more{ top:45px;}
+	.testimonial-box img{ width:50px; height:50px; left:-26px;}
+	.post-right{ float:none; position:inherit; padding:15px; width:auto; margin:0;}
+	.post-date{ top:-40px; right:110px; display:none;}
+	.site-main .team-col{ width:100%;}
+	#sitefull .team-col{ width:100%;}
+	.member-area-single{ width:100%; margin:0px; text-align:center;}
+	#content .membershippage{ margin:auto;}
+	.header .header-inner .nav ul li a{ margin-left:10px;}
+	.header .header-inner .nav ul li.current_page_item a, .header .header-inner .nav ul li:hover a, .header .header-inner .nav ul li:hover > ul{ border-bottom:0px none; color:#fff;}
+	#content .content-area{ margin:0px;}
+	.border_right{ border-right:0px none; padding:0px;}
+	.theteampage .page-header{ padding-top:15px;}
+	.padingrightnond{ width:100%; padding:0px;}
+	.right_padingnone{ width:100%; padding:20px 0 0 0;}
+	.circle_images{ width:240px; height:234px; background-size:240px 234px;}
+	#slider{ min-height:120px;}
+	#slider img.nivo-main-image{ min-height:120px;}
+	.theteamtitle{ padding:13px 0; font-size:25px; line-height:17px;}
+	.title_fitness, .title_nutrition{ font-size:28px; padding:0 0 20px;}
+	.title_nutrition img, .title_fitness img{ margin:0px 12px 0 0;}
+	.border_right_right{ padding:0px;}
+	header .site-branding{ float:left; width:100%;}
+	header .social-header{ float:left; width:100%;}
+	.theteampage .team-cat-nutritions, .theteampage .team-cat-fitness{ min-height:10px;}	
+	.single-nutritional{ width:100%;}
+	.single-what-time-eat span{ /*font-size:13px;*/}
+	.single-what-time-eat{ width:100%;}
+	.suitable-for{ width:100%; border:0px none; border-bottom:1px solid #f85f01;} 
+	.suitable-prep-time{ width:100%; border:0px none; border-bottom:1px solid #f85f01;}
+	.suitable-serving{ width:100%;}
+    .create-new-mealplan form{ width:100% !important; text-align:center;}
+	.change-new-mealplan form .create-mealplan{ float:none !important; margin-left:auto; margin-right:auto;}
+	.create-new-mealplan form .create-mealplan{ float:none; margin-left:auto; margin-right:auto;}
+	.change-new-mealplan-text{ text-align:center;}
+	.create-new-mealplan-text{ text-align:center;}
+	.receipy_boxes_men .col-md-6.col-sm-6{ padding:0px;}
+	
+	.change-new-mealplan form{ width:100% !important; text-align:center;}
+	.change-new-mealplan{ padding:0px; border:0px none;}
+	.meal-plan-information{ height:auto;  border-left:3px solid #f85f01;}
+	.meal-plan-top-names div:first-child{ display:none;}
+	.meal-plan-top-single-name{ width:16.6%; font-size:17px; padding-top:12px;}
+	.meal-plan-top-names{ height:auto; display:none; }	
+	.meal-plan-day{ width:100%; height:auto;}
+	.mealplan .lists{ width:100%; height:auto;}
+	.meal-plan-information-single{ width:100% !important; height:auto; border:0px none;}
+	.mealplan .title-fitness{ font-size:30px; padding:15px 0px; line-height:normal;}
+	.sec_front .title, .headingtitle{ line-height:normal; font-size:28px;}
+	.headingtitle{ padding:25px 0 20px;}
+	.front-third-left-side .title{ width:100%; font-size:41px; margin-top:0px; }
+	.sec_front .button-title{ margin-bottom:30px;}
+	.sec_front .title{ font-size:48px;}
+	.subtitle{ padding-top:25px; line-height:normal;}
+	.da-slide h2{ font-size:17px; left:0px; top:10px; width:100%; text-align:center;}
+	.nivo-caption p{ font-size:18px; left:0px; width:100%; line-height:normal; font-weight:600; padding:0px; top:15px;} 
+	.thin-text{font-weight:400;} 
+	.workoutwraper .module .sec_front .container .row{ margin:0px;}
+	.ramka img{ margin:0 0 20px; width:100%;}
+	.top_rightburn{ padding-top:35px; padding-bottom:10px;}
+	.front-third-right-side .opacitizer{ width:100%; margin-top:20px;}
+	.recipes-front .wrapper .title{ line-height:normal; font-size:32px; margin-bottom:5px;}
+	.tml.tml-profile{ width:100%;}
+	.input-info-area label{ width:100%; text-align:left;}
+	.form-area .userprofile .input-info{ width:100%;}
+	.tml-profile .submit-area input{width:100%;}
+	.tml-profile .submit-area{width:100%; padding:0px; margin:auto;}
+	.form-area .userprofile .description{ height:auto; padding:0px; width:100%;}	
+	#chart4.jqplot-target{ overflow:scroll;}
+/*} @media screen and (max-width:479px) {*/ 	*{box-sizing:border-box;}
+	#slider .top-bar { padding:0 20px; top:35px;}
+	#slider .top-bar h1 { font-size:25px; padding-bottom:25px;}
+	#slider .top-bar a{ font-size:14px; padding:8px 20px; margin-top:0; width:auto;}
+	.arrow-down { display:none;}
+	.container { width:auto; padding:0 20px;}
+	.page-template-education-template .container { width:auto; padding:0 15px;}
+	.header { width:auto; padding:0 20px; position:inherit;}
+	.logo { float:none; text-align:center;}
+	#services-box { width:100%; display:block; margin-bottom:20px; padding:20px;}
+	.banner-bg { padding:49px 0;}
+	.contact-banner h3 { font-size:20px; padding-bottom:30px; line-height:25px;}
+	.contact-banner a.contact-button{ width:auto; padding:10px 20px; margin-top:0; font-size:15px;}
+	.news-box { width:100%; display:block; margin-bottom:30px; height:auto;}
+	.news { padding-bottom:5%;}
+	.news img { margin:0 0 20px 0; padding:0; float:none; width:100%;}
+	.more { margin:30px auto 10px auto; display:block;}
+	.testimonial-box { width:90%; display:block; margin:0 auto 30px; float:none;}
+	.testimonial-post { width:auto; padding:37px 13px 15px 30px;}
+	#some-facts { margin:0;}
+	#some-facts li { display:block; margin:0 auto 30px;}
+	.skill { width:auto; float:none; margin-bottom:50px;}
+	.team-members { width:auto; float:none;}
+	.team-col { width:100%; display:block; float:none; margin-left:0;}
+	.team-col img { min-width:100%; height:100%;}
+	.signup-newsletter { padding:20px;}
+	.newsletter { width:auto; float:none; background:none; border-bottom:#1d1d1d solid 1px; padding-bottom:20px; margin-bottom:20px;}
+	.newsletter-form { width:auto; float:none; padding-right:0;}
+	.newsletter-form input[type="text"], .newsletter-form input[type="email"] { width:100%; float:none; margin:0 0 10px 0;}
+	.newsletter-form input[type="submit"] { width:100%;}
+	.sicons { width:auto;}
+	.footer, .copyright { width:auto; padding:0 20px;}
+	.widget-column-1, .widget-column-2 { width:auto; float:none; margin-right:0;}
+	.widget-column-3 { width:auto; float:none;}
+	.copyright-txt, .design-by { text-align:center; float:none;} .one_half, .one_third, .one_fourth, .one_fifth{ width:100%;}
+	.message-thumb{ width:100%; height:inherit !important}
+	.photobooth .filter-gallery{ width:auto;}
+	.photobooth .gallery ul li{ width:100%;}
+	.toggle{display:block;}
+	.navbar-header  .navbar-toggle, .toggle a{width:100%; color:#fff; background:url(../images/mobile_nav_right.png) no-repeat right center #3e3e3e; padding:19px 15px 10px 15px; margin-top:20px; font-size:16px; margin-left:0px; margin-right:0px; text-align:left; padding:9px 15px 3px;}
+	.navbar-default .navbar-toggle .icon-bar{ height:0px;}
+	.header-inner .navbar-header{ margin:auto;}
+	.header{ padding:0px; clear:both;}
+	.social-area{ width:100%;}
+	.login-area{ width:100%; padding-right:15px;}
+	.header nav.navbar .container{ padding:0px;}
+	.navbar-collapse{ padding-left:0px;}
+	.header .header-inner .nav ul li a{ margin-left:10px;}
+	.header .header-inner .nav ul li.current_page_item a, 
+	.header .header-inner .nav ul li:hover a, 
+	.header .header-inner .nav ul li:hover > ul{ border-bottom:0px none; color:#fff;}
+	.toggle a:hover{color:#ffffff !important;}
+	.nav{display:block !important;}
+	.header .header-inner .nav{float:none; margin:0; position:relative; overflow-x:hidden; }
+	.nav ul{color:#000; width:100%; float:none !important;}
+	.header .header-inner .nav ul li{border-top:1px #cccccc solid; display:block; float:none; text-align:left;}
+	.header .header-inner .nav ul li a{padding:5px 10px !important; display:block; color:#fff !important;}
+	.header .header-inner .nav ul li.current_page_item a span{ /*color:#fff;*/} /*.header .header-inner .nav ul li:hover a span{color:#fff;}*/
+	.header .header-inner .nav ul li a:hover{ background:none; color:#fff !important;}
+	.nav ul li a:hover{color:#00a8ff !important;}
+	.header .header-inner ul.sub-menu{ margin-left:10px;}
+	.nav ul li ul, .nav ul li ul ul{ display:block !important;}
+	.nav ul li ul li a:before{content:"\00BB \00a0";}
+	.nav ul li ul li a{padding-left:20px !important;}
+	.nav ul li ul li ul li a{padding-left:30px !important;}
+	.header .header-inner{ width:100%; padding:15px 0;}
+	.header .header-inner .logo{ float:none;}
+	a.arrow-down, #slider .top-bar p{ display:none;}
+	#prevslide, #nextslide{ top:0;}
+	.client_banner .client{ width:270px; margin:0 auto 10px !important; display:block;}
+	.last{ float:none !important; margin-right:0 !important;}
+	.testimonial .last{ float:none !important; margin:0 auto !important;} .content-area{ width:auto; margin:0 20px; padding:50px 0;}
+	.site-main{ width:auto; margin:0; padding:0; float:none;}
+	#sidebar{ width:auto; margin:60px 0 0; padding:0; float:none;}
+	.nivo-caption{ top:0 !important;}
+	#slider .top-bar{ top:5px !important;}
+	#slider .top-bar h2{ font-size:18px !important; padding-bottom:10px !important; line-height:29px;}
+	a.contact{ margin-top:5px !important; font-size:12px !important;}
+	.nivo-directionNav a{ top:39% !important;}
+	#slider .top-bar{ margin-bottom:11px;}
+	#slider .top-bar a.contact, .contact-banner a{padding:10px; position:relative; top:10px;}
+	.main-form-area{ width:90%; margin:0 auto; padding:0;}
+	.main-form-area .left, .main-form-area .right{ float:none; display:block;}
+	.main-form-area input, .main-form-area textarea{ width:100%;}
+	.main-form-area input[type="submit"]{ width:inherit !important; text-align:center;}
+	.memberarea-pole{ width:100%;}
+	.login-submit input{ min-width:100%;}
+	.loginlostpass ul.tml-action-links li a{ min-width:100%;}
+	.boxintenseburn{ width:100%;}   
+	.da-slide .da-link{ top:-39px; left:0px; width:200px; left:auto !important;}
+	.container.blogpagecontent{ margin:0px 15px;}
+	section.module.parallax{ background-size:auto 100%; float:left; width:100%; background-attachment:inherit; background-position:center;}
+	.title{ line-height:normal;}
+	.select2-container .select2-choice{ width:100%;}
+	.videoDescription .change-level > span.prev-span{ font-size:25px;}	
+	.videoDescription .change-level > span.next-span{ font-size:25px;}	
+	.introjs-tooltipReferenceLayer .introjs-tooltip{ min-width:320px;}
+	.sr-only{ width:auto; position:relative; height:auto; overflow:visible;}
+	.theteampage.shop .nutritions_team{ margin:0 -15px;}
+	.theteampage.shop .nutritions_team .row_no{ margin:0 -15px;}
+	.theteampage.shop .nutritions_team .row_margin{ margin:35px -19px;}
+	.register_pge .loginform ul.acf-radio-list.acf-hl li{ width:46%; margin:0px;}
+	.da-slide{ text-align:center; }
+	.receipiimage{ width:100%; max-width:288px; height:209px; }
+	.workout_categorie .eat{ width:100%;}
+	.workout_categorie .search_abutton .search-button{ width:100%; margin-left:0px;}
+	.theteampage.shop .title_nutrition{ padding-top:30px;}
+	.theteampage.shop .entry-content{ min-height:10px; }
+	.header .header-inner .navbar .nav{ padding-top:0px;}
+	.header .header-inner .navbar .nav div{ border:0px none;}
+	.class_notitle{ padding:0px;}
+	#loginform label{ font-size:20px;}
+	.register_pge .memberarea{ padding-top:0px;}
+	.faq_content{ padding:16px 0px;}
+	#content.site-content { clear:both;}
+	.starttodaybtn{ clear:both; float:left; width:100%; display:block; position:relative;}
+	.receipiimage iframe{ height:auto; margin-bottom:20px;}
+	.tml.tml-profile .form-table{ width:100%;}
+	.tml.tml-profile .form-table .acf-label{ width:100%; display:table; text-align:left;}
+	.tml.tml-profile .acf-field .acf-input{ width:100%; display:table; text-align:left;}
+	.tml.tml-profile .form-table .acf-field .acf-label label{text-align:left;}
+	.acf-field input[type="text"], .acf-field input[type="password"], .acf-field input[type="number"], .acf-field input[type="search"], .acf-field input[type="email"], .acf-field input[type="url"], .acf-field textarea, .acf-field select{ width:100%;} 
+	.tml.tml-profile .form-table .acf-input-wrap input{ width:100%;} 
+	.recepitop .row{ clear:both;}
+	.search{ width:100%}
+	.search-button{ width:100%; margin-left:0px;}
+	.eat{ width:100%}
+	.text-search{ margin:0px;}  
+	.change-new-mealplan form input.input-100{ float:none; width:100% !important;}
+	.mealplan td{ display:block; width:100%;}
+	
+	}
+@media screen and (max-width:719px) and (min-width:320px) {
+	*{box-sizing:border-box;}
+	#slider .top-bar { padding:0 20px; top:60px;}
+	#slider .top-bar h1 { font-size:30px; padding-bottom:5px;}
+	#slider .top-bar a{ font-size:18px; padding:8px 20px; margin-top:20px;}
+	.arrow-down { display:none;}
+	.container { width:auto; padding:0 20px;}
+	.header { width:auto; padding:0 20px; position:inherit;}
+	.logo { float:none; text-align:center;}
+	#services-box { width:100%; display:block; margin-bottom:20px; padding:20px;}
+	.banner-bg { padding:49px 0;}
+	.contact-banner h3 { font-size:20px; padding-bottom:30px;}
+	.contact-banner a.contact-button{ width:auto; padding:10px 20px; margin-top:0; font-size:18px;}
+	.news-box { width:100%; display:block; margin-bottom:60px !important; float:none;}
+	.news { padding-bottom:5%;}
+	.news img { margin:0 0 20px 0; padding:0; float:none; width:156px; height:143px;}
+	.news h2{ font-size:15px !important; line-height:20px !important;}
+	.more { margin:30px auto 10px auto; display:block;}
+	.testimonial-box { width:84%; display:block; margin:0 auto 30px; float:none;}
+	.testimonial-post { width:100%; padding:37px 23px 15px 72px;}
+	#some-facts { margin:0;}
+	#some-facts li { display:block; margin:0 auto 30px;}
+	.skill { width:auto; float:none; margin-bottom:50px;}
+	.team-members { width:auto; float:none;}
+	.team-col { width:270px; display:block; float:none; margin:0 auto 30px;}
+	.team-col img { min-width:100%; height:100%;}
+	.team-col.last{ margin-right:auto !important;}
+	.signup-newsletter { padding:20px;}
+	.newsletter { width:auto; float:none; background:none; border-bottom:#1d1d1d solid 1px; padding-bottom:20px; margin-bottom:20px;}
+	.newsletter-form { width:auto; float:none; padding-right:0;}
+	.newsletter-form input[type="text"], .newsletter-form input[type="email"] { width:100%; float:none; margin:0 0 10px 0;}
+	.newsletter-form input[type="submit"] { width:100%;}
+	.sicons { width:auto;}
+	.footer, .copyright { width:auto; padding:0 20px;}
+	.widget-column-1, .widget-column-2 { width:auto; float:none; margin-right:0;}
+	.widget-column-3 { width:auto; float:none;}
+	.copyright-txt, .design-by { text-align:center; float:none;}
+	.testimonial .last{ float:none !important; margin:0 auto !important;} .one_half{ width:100%;}
+	.message-thumb{ width:100%; height:inherit !important}
+	.photobooth .filter-gallery{ width:auto;}
+	.toggle{display:block;}
+	.toggle a{width:100%; color:#ffffff; background:url(../images/mobile_nav_right.png) no-repeat right center #3e3e3e; padding:10px 10px; margin-top:20px; font-size:16px;}
+	.toggle a.active{color:#00a8ff;}
+	.nav{display:none;}
+	.header .header-inner .nav{float:none; margin:0; position:relative; overflow-x:hidden; }
+	.nav ul{color:#000; width:100%; float:none !important;}
+	.header .header-inner .nav ul li{border-top:1px #cccccc solid; display:block; float:none; text-align:left;}
+	.header .header-inner .nav ul li a{padding:5px 10px !important; display:block; color:#fff;}
+	.nav ul li a:hover{color:#00a8ff;}
+	.header .header-inner ul.sub-menu{ margin-left:10px;}
+	.nav ul li ul, .nav ul li ul ul{ display:block !important;}
+	.nav ul li ul li a:before{content:"\00BB \00a0";}
+	.nav ul li ul li a{padding-left:20px !important;}
+	.nav ul li ul li ul li a{padding-left:30px !important;}
+	.header .header-inner{ width:100%; padding:15px 0;}
+	.header .header-inner .logo{ float:none;}
+	a.arrow-down, #slider .top-bar p{ display:none;}
+	#prevslide, #nextslide{ top:0;}
+	.client_banner .client{ width:46%; margin:0 15px 10px 0 !important;}
+	.last{ float:none !important;} .content-area{ width:auto; margin:0 20px; padding:50px 0;}
+	.site-main{ width:auto; margin:0; padding:0; float:none;}
+	#sidebar{ width:auto; margin:60px 0 0; padding:0; float:none;}
+	.nivo-caption{ top:0 !important; overflow:visible !important;}
+	#slider .top-bar{ top:35px !important;}
+	#slider .top-bar h2{ font-size:35px !important; padding-bottom:28px !important; line-height:35px;}
+	a.contact{ margin-top:5px !important; font-size:12px !important;}
+	.nivo-directionNav a{ top:39% !important;}
+	.widget-column-1, .widget-column-3{ width:auto; float:none;}
+}
+@media screen and (max-width:899px) and (min-width:320px) {  section h2 { font-size: 30px !important; line-height:30px !important; }} 
+@media screen and (max-width:979px) and (min-width:720px) { 
+	*{box-sizing:border-box;}
+	.left{ float:left;}
+	.right{ float:right;}
+	#slider .top-bar { padding:0; top:45px;}
+	#slider .top-bar a{ margin-top:20px;}
+	a.arrow-down{ bottom:14px;}
+	.arrow-down { bottom:20px;}
+	.container { width:auto; padding:0 20px;}
+	.header { width:auto; padding:0 20px; position:inherit;} 
+	#services-box { display:inline-block; margin-bottom:20px; padding:20px; margin-right:10px;}
+	#services-box h2{ font-size:18px !important;}
+	.banner-bg { padding:49px 0;}
+	.contact-banner h3 { font-size:20px; padding-bottom:30px;}
+	.contact-banner a{ width:auto;}
+	.testimonial-box h2{ font-size:18px !important;}
+	.news-box { max-width:100%; margin:0 auto 60px; display:inline-block; width:100%; float:none;}
+	.post-right{ width:50%;}
+	.news-box img{ width:226px;}
+	.news h2{ font-size:14px !important; line-height:20px !important;}
+	.news img { float:left;}
+	.more { margin:30px auto 10px auto; display:block;}
+	.testimonial-box { width:80%; display:block; margin:0 auto 30px; float:none;}
+	.testimonial-post { width:100%;  padding:26px 90px;}
+	.testimonial .last{ float:none !important; margin-right:auto !important;}
+	#some-facts { margin:auto; width:99%;}
+	#some-facts li { display:inline-block; margin:0 4px;}
+	.skill { width:auto; float:none; margin-bottom:50px;}
+	.team-members { width:auto; float:none;}
+	.team-col { width:44.69%; float:left; margin:0 18px 40px;}
+	.team-col img { min-width:100%; height:100%;}
+	#signup-newsletter { padding:20px;}
+	.newsletter { width:auto; float:none; background:none; border-bottom:#1d1d1d solid 1px; padding-bottom:20px; margin-bottom:20px; text-align:center;}
+	.newsletter h2 { text-align:center;}
+	.newsletter-form { width:auto; float:none; padding-right:0;}
+	.newsletter-form input[type="text"], .newsletter-form input[type="email"]{ width:38%; float:left;}
+	.newsletter-form input[type="submit"] {width:auto;}
+	.sicons { width:94%; margin:auto;}
+	.footer, .copyright { width:auto; padding:0 20px;}
+	.footer-col-1 { margin:0 30px 50px 0;}
+	.footer-col-1 h2, .footer-col-2 h2 { font-size:17px;}
+	.footer-col-3 h2 { font-size:17px;}
+	section{ padding:50px 0 30px; clear:both; float:left; width:100%;}
+	.title{ line-height:normal;}
+	.team-col p{ padding:15px;} .one_half{ width:48%;}
+	.message-thumb{ width:100%; height:inherit !important}
+	.photobooth .filter-gallery{ width:auto;}
+	.photobooth .gallery ul li{ width:24%;}
+	.photobooth .gallery ul li img{ width:auto; height:auto;}
+	.toggle{display:block;}
+	.toggle a{width:100%; color:#ffffff; background:url(../images/mobile_nav_right.png) no-repeat right center #3e3e3e; padding:10px 10px; margin-top:20px; font-size:16px;}
+	.toggle a.active, .toggle a:hover{color:#ffffff;}
+	.nav{display:none;}
+	.header .header-inner .nav{float:none; margin:0; position:relative; overflow-x:hidden; }
+	.nav ul{color:#000; width:100%; float:none !important;}
+	.header .header-inner .nav ul li{border-top:1px #cccccc solid; display:block; float:none; text-align:left;}
+	.header .header-inner .nav ul li a{padding:5px 10px !important; display:block; color:#000;}
+	.nav ul li a:hover{color:#00a8ff;}
+	.header .header-inner ul.sub-menu{ margin-left:10px;}
+	.nav ul li ul, .nav ul li ul ul{ display:block !important;}
+	.nav ul li ul li a:before{content:"\00BB \00a0";}
+	.nav ul li ul li a{padding-left:20px !important;}
+	.nav ul li ul li ul li a{padding-left:30px !important;}
+	.header .header-inner{ width:100%; padding:15px 0;}
+	.header .header-inner .logo{ float:none; text-align:center;}
+	#prevslide, #nextslide{ top:-150px;}
+	.client_banner{ text-align:center;}
+	.client_banner .client{ width:15%; margin-right:34px !important;}
+	a.arrow-down{ display:none;} .content-area{ width:auto; margin:0 0px; padding:50px 0;}
+	.member-area-single{ height:auto; padding:0px; margin:0 0 20px;}
+	.member-area-single img{ width:100%;}
+	.site-main{ width:60%; margin:0; padding:0; float:left;}
+	#sidebar{ width:260px; margin:0; padding:0; float:right;}
+	.nivo-caption{ top:0 !important; overflow:visible !important;}
+	#slider .top-bar{ top:80px !important;}
+	#slider .top-bar h2{ font-size:45px !important; padding-bottom:10px !important; line-height:44px;}
+	a.contact{ margin-top:15px !important; font-size:18px !important;}
+	.nivo-directionNav a{ top:42% !important;}
+	.widget-column-1{ margin-right:0 !important; width:27% !important;}
+	.widget-column-3{ width:23%;}
+	.office_timing .time_row .day{ width:75%;}
+	.office_timing .time_row .start_time{ width:68%;}
+	.site-main .team-col{ width:44%;}
+	#sitefull .team-col{ width:44%;}
+	.single-nutritional{ width:100%;}
+	.single-what-time-eat span{ font-size:15px;}
+	.suitable-for{ width:100%; border:0px none; border-bottom:1px solid #f85f01;}
+	.suitable-prep-time{ width:100%; border:0px none; border-bottom:1px solid #f85f01;}
+	.suitable-serving{ width:100%;}
+}
+@media screen and (max-width:1159px) and (min-width:980px) {
+	.memberarea-pole{ width:74%;}
+}
+@media screen (min-width:768px) {
+	header .site-branding{ float:left; width:40%;}
+	header .social-header{ float:left; width:60%;}
+	.theteampage .team-cat-nutritions, .theteampage .team-cat-fitness{ min-height:10px;}	
+	}
+@media screen and (min-width: 980px) {
+	.header .header-inner .nav ul li ul{display:none; z-index:2;}
+	.header .header-inner .nav ul li:hover > ul{display:block; width:200px; position:absolute; left:0; text-align:left;}
+	.header .header-inner .nav ul li:hover ul li ul{display:none;}
+	.header .header-inner .nav ul li:hover ul li:hover > ul{display:block; position:absolute; left:200px; top:1px;}
+	.header .header-inner .logo{float:left; margin-top:32px; }
+	.innerpagetitle .nivo-caption{ position:relative !important;} 
+	.innerpagetitle .nivoSlider .nivo-caption{ position:absolute !important;}    } /*END*/
+	.page-template-memberarea-template #content{ background:#fff;}	
+	.memberarea{ clear:both;}
+	.success{ background:#fff; color:#063; font-weight:700; padding:20px 0; margin-bottom:15px; text-align:center; font-size:30px; }
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
+	.header .header-inner .nav ul li.current_page_item a span{ color:#fff;}
+	.header .header-inner .nav ul li a span, .header .header-inner .nav ul li a span:hover{ color:#fff !important;}
+	.content-area{ width:100%;}
+	.header .header-inner .nav ul li a{ color:#fff !important;}
+	.header .header-inner .nav ul li a:hover{ color:#fff;}
+	.header .header-inner .nav ul li.current_page_item a, .header .header-inner .nav ul li:hover a, .header .header-inner .nav ul li:hover > ul{ border-bottom:0px none; background:none;}
+	.meal-plan-information{ height:auto;  border-left:3px solid #f85f01;}
+	.meal-plan-top-names div:first-child{ display:none;}
+	.meal-plan-top-single-name{ width:16.6%; font-size:17px; padding-top:12px;}
+	.meal-plan-top-names{ height:auto;}	
+	.meal-plan-day{ width:100%; height:auto;}
+	.mealplan .lists{ width:100%; height:auto;}
+	.meal-plan-information-single{ width:100% !important; height:auto; border:0px none;}
+	.headingtitle{ line-height:normal; padding:30px 0px; font-size:40px;}	
+	.create-new-mealplan form{ width:100% !important;}
+	.change-new-mealplan form{ width:100% !important;}
+	.workoutwraper .module .sec_front .container .row{ margin:0px;}
+	.da-slide h2{ font-size:26px; left:0px; top:20px; width:60%; text-align:center;}
+	.nivo-caption p{ font-size:20px; left:0px; width:60%; line-height:normal; font-weight:600;} 
+	.da-slide .da-link{ top:auto !important; left:18% !important; margin-top:20px;}
+	.tml.tml-profile{ width:100%;}
+	.recepitop .receipy_boxes h1{ min-height:67px;}
+	.receipysearch .search, .eat{ width:30%;}
+	.receipysearch .search-button{ width:30%}
+	#chart4.jqplot-target{ overflow:scroll;}
+	/*Tonglee meun start*/
+	.contact-banner h3{line-height:40px;}
+	.last_column{float:right;}
+	.one_half{width:41%; margin-right:2%;}
+	.contact-banner, a.contact-button{display:inline;} 
+	#some-facts li{ margin:0 14px;}
+	#main.site-main{ width:100%;}
+	.social-header{ padding:0px;}
+	.site-branding{ padding:0px;}
+	.header{ clear:both; float:left; width:100%; margin:auto;}
+	.header .container{ padding:0px;}
+	.social-area{ width:100%;}
+	.login-area{ width:100%; padding-bottom:0px; padding-right:15px;}
+	.member-area-single{ height:auto; padding:0px; margin:0 0 20px;}
+	.member-area-single img{ width:100%;}
+	.navbar-header .navbar-toggle{ margin-right:0px;}
+	#content .membershippage{ margin:auto;}
+	.border_right{ border-right:0px none; padding:0px;}
+	.theteampage .page-header{ padding-top:15px;}
+	.padingrightnond{ width:50%; padding:0px 18px;}
+	.right_padingnone{ width:32%; padding:20px 0px 20px 0px;}
+	.padingrightnone{ width:123px;  }
+	.circle_images{ height:210px; width:215px; background-size:210px 210px; }
+	.mealplan .lists{ width:84%; }
+	.meal-plan-information{ height:120px; height:auto;}
+	.mealplan .lists{ width:100%;}
+	.meal-plan-day{ height:115px;}
+	.content-area{ width:100%;}
+	#sidebar{ width:270px;}
+	.content-area{ width:100%;} 
+	.container{ width:100%;} 
+	/*Tonglee meun ENd*/
+	.front-third-left-side .title{ font-size:50px; text-align:left;}
+	.sec_front .button-title{ margin:26px auto 0;}
+	.workout_categorie .eat{ width:44%;}
+	.workout_categorie .search_abutton .search-button{ width:44%; margin-left:2%;}
+	.theteampage.shop .entry-content{ min-height:10px; }
+	.ramka img{ margin:0;}
+	.black-max .ramka img{ margin:0 0px 45px 0; height:155px;}
+	.membershippage	.memberarea .member-area-all{ margin:50px 0px 0;}
+	.tml.tml-profile .form-table{ width:100%;}
+	.tml.tml-profile .form-table .acf-label{ width:24%;}
+	.tml.tml-profile .form-table .acf-input-wrap input{ width:75%;}
+	.form-area .userprofile .description{ padding-left:240px;}
+	.tml-profile .submit-area{ margin-left:33%;} 
+	.receipysearch div.search-button{ width:32%; float:right;  margin:10px 19px 0 0;}
+	.receipysearch .search-abutton .search-button{ width:100%; margin-top:0px; margin-left:0px;}
+	.receipysearch .search-abutton{margin:10px 0px 0px 115px;  float:left; width:32%;}
+	.receipysearch .text-search{ margin-right:10px; margin-left:30px;}
+	.receipysearch .eat{ width:32%;}
+	.receipysearch .search{ width:32%;}
+	.acf-field input[type="text"], .acf-field input[type="password"], .acf-field input[type="number"], .acf-field input[type="search"], .acf-field input[type="email"], .acf-field input[type="url"], .acf-field textarea, 
+	.acf-field select{ width:75%;} 
+	.videoDescription .change-level > span{ font-size:23px;}
+	.login_pge .memberarea{ padding-top:0px; padding-bottom:0px;}
+	.select2-container .select2-choice{ width:75%;}
+	.introjs-tooltipReferenceLayer .introjs-tooltip{ top:211% !important; margin-top:10px !important; left:0px !important;  margin-left:0 !important;}
+	.introjs-tooltipReferenceLayer{ top:0px !important; left:15px !important; margin-left:0 !important;}
+	.change-new-mealplan form{ width:100%;}
+	.change-new-mealplan form .create-mealplan{ width:100%;}
+	.container.blogpagecontent .row{ margin:0px;}
+	.mealplan td{ width:23.3%;}
+	.meal-plan-day input[type="checkbox"]{ margin:4px 6px 0 0 !important;}	
+	.sec_front .title, .headingtitle{ line-height:41px; padding-bottom:0px;}
+	.sec_front .text{ font-size:20px; margin-top:30px;}
+	.black-max .headingtitle{ padding-bottom:30px;}
+	.front-third-left-side .text{ line-height:27px;  font-size:18px;}
+	h2.section_title{font-size:24px !important;}
+	.container_once{ padding:55px 0;}
+	#oncejointyou{ padding:30px 0 0 20px;}
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {
+	body .content-area{ width:100%; float:none !important; margin:auto;} 
+	body .container{ width:100%;} 
+	.workoutwraper .module .sec_front .container .row{ margin:0px;}
+	.receipiimage img{ padding:10px 10px 10px 10px;}
+	.full_width{ width:100%;}
+	footer.footer{ width:100% !important;}
+	.header .header-inner .nav ul li a{margin-left:21px;}
+	.social-area{ width:64%;}
+	.login-area{ width:36%; margin-top:10px; padding-right:0px;}
+	.circle_images{ height:210px; width:215px; background-size:210px 210px; }
+	.memberarea-pole{ width:74%;}
+	.social-header{ padding-right:15px;}
+	.nivo-caption{ top:35px; overflow:visible !important;}
+	.da-slide p{ font-size:25px; top:17px; width:50%; left:0px;}
+	body .container{ width:96%;}
+	.da-slide .da-link{ top:10px; left:15% !important;}
+	.boxintenseburn{ width:100%;}
+	.da-slide h2{ font-size:34px; left:0px; text-align:center;}
+	.ramka img{ margin:0px;}
+	.black-max .ramka img{ margin:0 0px 45px 0; height:155px; width:100%;}
+	.padingrightnond{ width:54%; padding:0px 18px;}
+	.right_padingnone{ width:32%; padding:20px 0px 20px 0px;}
+	.padingrightnone{ width:123px;  }
+	.loginlostpass ul.tml-action-links li a{ min-width:290px;}
+	.membershippage	.memberarea .member-area-all{ margin:0px 0px 0;}
+	.login_pge .memberarea{ padding-top:0px; padding-bottom:0px;}
+	.member-area-single{ width:100%; margin:50px auto 0; height:auto;}
+	.member-area-single img{ max-width:100%;}
+	.tml.tml-profile .form-table{ width:100%;}
+	.tml.tml-profile .form-table .acf-label{ width:26%;}
+	.tml.tml-profile .form-table .acf-input-wrap input{ width:77%;}
+	.tml-profile .submit-area{ margin-left:34%;}
+	.acf-field input[type="text"], .acf-field input[type="password"], .acf-field input[type="number"], .acf-field input[type="search"], .acf-field input[type="email"], .acf-field input[type="url"], .acf-field textarea,
+	.acf-field select{ width:75%;} 
+	.receipysearch div.search-button{ width:37%; float:right;  margin:10px 13px 0 0;}
+	.receipysearch .search-abutton .search-button{ width:100%; margin-top:0px; margin-left:0px;}
+	.receipysearch .search-abutton{margin:10px 0px 0px 115px;  float:left; width:37%;}
+	.receipysearch .text-search{ margin-right:10px; margin-left:30px;}
+	.receipysearch .eat{ width:37%;}
+	.receipysearch .search{ width:37%;}
+	.starttodaypage #slider{ width:100%;}
+	.mealplan .lists{ width:100%; height:100%;}
+	.meal-plan-information{ height:115px;}
+	.meal-plan-day{ height:110px;}
+	.wyslij-do-przepisu{ padding-top:10px;}
+	.theteampage.shop .nutritions_team{ margin:0 -15px;}
+	.theteampage.shop .nutritions_team .row_no{ margin:0 -15px;}
+	.theteampage.shop .nutritions_team .row_margin{ margin:35px -19px;}
+	.meal-plan-information-single{ width:16.6% !important; height:108px;}
+	.meal-plan-top-single-name{ font-size:15px; line-height:32px;}
+	.select2-container .select2-choice{ width:77%;}
+	.starttodaypage #slider_inner{ width:100%;}
+	.bottom_btn{ width:78%;}
+	.change-new-mealplan form{ width:100% !important;}
+	.create-new-mealplan form{ width:100% !important;}
+	.change-new-mealplan form .create-mealplan{ width:100%;}
+	nav.navbar .container{ padding-right:0px;}
+	.mealplan td{ width:23.3%; vertical-align:top;}
+	#monday_breakfast{ width:16.7%;}
+	#monday_breakfast_snack{ width:16.7%;}
+	#monday_lunch{ width:16.7%;}
+	#monday_lunch_snack{ width:16.7%;}
+	#monday_dinner{ width:16.7%;}
+	#monday_post_workout{ width:16.5%;}
+	.meal-plan-information-single:last-child{width:15%;}
+	.meal-plan-top-names th:first-child{width:18.7%;}
+	.meal-plan-top-names th{width:10.1%;}
+	.meal-plan-top-names th:LAST-child{width:10.4%;}
+	.meal-plan-day input[type="checkbox"]{ margin:4px 6px 0 0 !important;} 
+	.sec_front .title{ line-height:42px; padding-bottom:0px;}
+	.front-third-left-side .text{ line-height:30px;}
+	h2.section_title{font-size:31px !important;}
+		.container_once{ padding:55px 0;}
+	#oncejointyou{ padding:30px 0 0 20px;}
+		
+}
+
+@media only screen and (min-width : 999px) and (max-width : 1366px)  {
+	.container{ width:100%; padding:0 15px;}
+	.content-area	{ width:100%;}
+	}
+/*616*/

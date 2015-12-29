@@ -1,0 +1,670 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="css/slider.css" />
+</head>
+
+<body>
+<div id="print-meal-div" style="width:1170px; margin:auto;">
+				<table width="100%">
+                <tbody><tr>
+                <td>
+                  <div class="title-fitness">Meal plan : <span id="current_meal_plan">Meal 2 xMas</span></div>
+				  
+                  <form onsubmit="return validateForm();" id="mealplan" name="mealplan" action="" method="post">
+				  <input type="hidden" value="227" name="post_id" id="post_id">
+                    <div style="backgroud:#FFF;" id="print_able">
+                      <div class="meal-plan-week">
+                        <div class="right-meal-plan" id="image-png">
+                          <div class="meal-plan-top-names">
+                           <table width="100%" cellspacing="0" cellpadding="0">
+                           <tbody>
+                           <tr>
+                           <th width="14.2%"><div class="meal-plan-top-single-name" style="background:#fff !important;"> </div></th>
+                           <th width="14.2%"><div class="meal-plan-top-single-name" style="border-left:none;"> Breakfast </div></th>
+                           <th width="14.2%"><div class="meal-plan-top-single-name"> Snack </div></th>
+                           <th width="14.2%"><div class="meal-plan-top-single-name"> Lunch </div></th>
+                           <th width="14.2%"><div class="meal-plan-top-single-name"> Snack </div></th>
+                           <th width="14.2%"><div class="meal-plan-top-single-name"> Dinner </div></th>
+                           <th width="14.2%"><div class="meal-plan-top-single-name"> Post Workout </div></th>
+                           </tr>
+                            
+                            </tbody></table>
+                            
+                          </div>
+                          
+						  						  
+						  
+                          <div style="position:relative;" id="monday_wrappper" class="meal-plan-information">
+                          <table width="100%" cellspacing="0" cellpadding="0">
+                           <tbody>
+                           <tr>
+                           <td width="14.2%" bgcolor="#f85f01" background="#f85f01">
+                            
+                            <div style="background:#f85f01;" class="meal-plan-day">
+                              <div style="display:none" class="monday-change change-fasting"> 
+							  
+																<span data-day="monday" data-type="prev" class="prev">&lt;</span><span data-current="0" id="monday-liczba"> 0 </span><span data-day="monday" data-type="next" class="next">&gt;</span> 
+							  
+							  </div>
+                              <div class="meal-plan-day-name"> Monday </div>
+                              <div class="fasting-day">
+                                <input type="hidden" value="0" name="data[monday][is_fasting]" id="_monday-fasting-checkbox">
+                                <input type="checkbox" value="1" data-day="monday" name="data[monday][is_fasting]" class="fasting-checkbox" id="monday-fasting-checkbox" disabled="disabled">
+                                <input type="hidden" value="157" name="data[monday][fasting_id]" id="monday-fasting_plan-hidden">
+                                <span> Fasting day </span> </div>
+                            </div>
+                            </td>
+                            <td width="85.8%">
+                            <div class="lists">
+							
+							
+																<div class="meal-plan-information-single" id="monday_breakfast">
+																			<div class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu">Butterbean, mackerel and egg salad</div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=121&amp;mpc=breakfast&amp;day=monday" data-toggle="modal" style="display:block" class="change-this-breakfast-monday change-this-eat"> Change </div>
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=121&amp;mpc=breakfast&amp;day=monday" data-toggle="modal" style="display:none" id="monday-breakfast-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-breakfast-monday">  </div>
+										<input type="hidden" id="monday_breakfast_id" name="data[monday][breakfast][id]" value="121">
+									</div>
+																		<div class="meal-plan-information-single" id="monday_breakfast_snack">
+																			<div class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu">Snack 2</div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=152&amp;mpc=breakfast_snack&amp;day=monday" data-toggle="modal" style="display:block" class="change-this-breakfast_snack-monday change-this-eat"> Change </div>
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=152&amp;mpc=breakfast_snack&amp;day=monday" data-toggle="modal" style="display:none" id="monday-breakfast_snack-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-breakfast_snack-monday">  </div>
+										<input type="hidden" id="monday_breakfast_snack_id" name="data[monday][breakfast_snack][id]" value="152">
+									</div>
+																		<div class="meal-plan-information-single" id="monday_lunch">
+																			<div class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu">Butterbean, mackerel and egg salad</div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=121&amp;mpc=lunch&amp;day=monday" data-toggle="modal" style="display:block" class="change-this-lunch-monday change-this-eat"> Change </div>
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=121&amp;mpc=lunch&amp;day=monday" data-toggle="modal" style="display:none" id="monday-lunch-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-lunch-monday">  </div>
+										<input type="hidden" id="monday_lunch_id" name="data[monday][lunch][id]" value="121">
+									</div>
+																		<div class="meal-plan-information-single" id="monday_lunch_snack">
+																			<div class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu">Snack 1</div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=151&amp;mpc=lunch_snack&amp;day=monday" data-toggle="modal" style="display:block" class="change-this-lunch_snack-monday change-this-eat"> Change </div>
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=151&amp;mpc=lunch_snack&amp;day=monday" data-toggle="modal" style="display:none" id="monday-lunch_snack-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-lunch_snack-monday">  </div>
+										<input type="hidden" id="monday_lunch_snack_id" name="data[monday][lunch_snack][id]" value="151">
+									</div>
+																		<div class="meal-plan-information-single" id="monday_dinner">
+																			<div class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu">Dinner 1</div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=155&amp;mpc=dinner&amp;day=monday" data-toggle="modal" style="display:block" class="change-this-dinner-monday change-this-eat"> Change </div>
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=155&amp;mpc=dinner&amp;day=monday" data-toggle="modal" style="display:none" id="monday-dinner-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-dinner-monday">  </div>
+										<input type="hidden" id="monday_dinner_id" name="data[monday][dinner][id]" value="155">
+									</div>
+																		<div class="meal-plan-information-single" id="monday_post_workout">
+																			<div style="display:none;" class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu"></div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=&amp;mpc=post_workout&amp;day=monday" data-toggle="modal" style="display:none;" class="change-this-post_workout-monday change-this-eat"> Change </div>
+										
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=&amp;mpc=post_workout&amp;day=monday" data-toggle="modal" style="display:block" id="monday-post_workout-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-post_workout-monday">  </div>
+										<input type="hidden" id="monday_post_workout_id" name="data[monday][post_workout][id]" value="">
+									</div>
+									                              
+							  
+                            </div>
+                            </td>
+                            
+                            </tr></tbody></table>
+                          </div>
+						  						  
+						  
+                          <div style="position:relative;" id="tuesday_wrappper" class="meal-plan-information">
+                          <table width="100%" cellspacing="0" cellpadding="0">
+                           <tbody>
+                           <tr>
+                           <td width="14.2%" bgcolor="#f85f01" background="#f85f01">
+                            
+                            <div style="background:#f85f01;" class="meal-plan-day">
+                              <div style="display:block" class="tuesday-change change-fasting"> 
+							  
+																<span data-day="tuesday" data-type="prev" class="prev">&lt;</span><span data-current="1" id="tuesday-liczba"> 1 </span><span data-day="tuesday" data-type="next" class="next">&gt;</span> 
+							  
+							  </div>
+                              <div class="meal-plan-day-name"> Tuesday </div>
+                              <div class="fasting-day">
+                                <input type="hidden" value="0" name="data[tuesday][is_fasting]" id="_tuesday-fasting-checkbox">
+                                <input type="checkbox" value="1" data-day="tuesday" name="data[tuesday][is_fasting]" class="disable fasting-checkbox" checked="checked" id="tuesday-fasting-checkbox">
+                                <input type="hidden" value="158" name="data[tuesday][fasting_id]" id="tuesday-fasting_plan-hidden">
+                                <span> Fasting day </span> </div>
+                            </div>
+                            </td>
+                            <td width="85.8%">
+                            <div class="lists">
+							
+							
+																<div class="meal-plan-information-single" id="tuesday_breakfast">
+																			<div style="display:none;" class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu"></div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=&amp;mpc=breakfast&amp;day=tuesday" data-toggle="modal" style="display:none;" class="change-this-breakfast-tuesday change-this-eat"> Change </div>
+										
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=&amp;mpc=breakfast&amp;day=tuesday" data-toggle="modal" style="display:none" id="tuesday-breakfast-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-breakfast-tuesday">  </div>
+										<input type="hidden" id="tuesday_breakfast_id" name="data[tuesday][breakfast][id]" value="">
+									</div>
+																		<div class="meal-plan-information-single" id="tuesday_breakfast_snack">
+																			<div class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu">Snack 1</div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=151&amp;mpc=breakfast_snack&amp;day=tuesday" data-toggle="modal" style="display:none" class="change-this-breakfast_snack-tuesday change-this-eat"> Change </div>
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=151&amp;mpc=breakfast_snack&amp;day=tuesday" data-toggle="modal" style="display:none" id="tuesday-breakfast_snack-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-breakfast_snack-tuesday">  </div>
+										<input type="hidden" id="tuesday_breakfast_snack_id" name="data[tuesday][breakfast_snack][id]" value="151">
+									</div>
+																		<div class="meal-plan-information-single" id="tuesday_lunch">
+																			<div style="display:none;" class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu"></div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=&amp;mpc=lunch&amp;day=tuesday" data-toggle="modal" style="display:none;" class="change-this-lunch-tuesday change-this-eat"> Change </div>
+										
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=&amp;mpc=lunch&amp;day=tuesday" data-toggle="modal" style="display:none" id="tuesday-lunch-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-lunch-tuesday">  </div>
+										<input type="hidden" id="tuesday_lunch_id" name="data[tuesday][lunch][id]" value="">
+									</div>
+																		<div class="meal-plan-information-single" id="tuesday_lunch_snack">
+																			<div class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu">Snack 1</div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=151&amp;mpc=lunch_snack&amp;day=tuesday" data-toggle="modal" style="display:none" class="change-this-lunch_snack-tuesday change-this-eat"> Change </div>
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=151&amp;mpc=lunch_snack&amp;day=tuesday" data-toggle="modal" style="display:none" id="tuesday-lunch_snack-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-lunch_snack-tuesday">  </div>
+										<input type="hidden" id="tuesday_lunch_snack_id" name="data[tuesday][lunch_snack][id]" value="151">
+									</div>
+																		<div class="meal-plan-information-single" id="tuesday_dinner">
+																			<div class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu">Dinner 2</div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=156&amp;mpc=dinner&amp;day=tuesday" data-toggle="modal" style="display:none" class="change-this-dinner-tuesday change-this-eat"> Change </div>
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=156&amp;mpc=dinner&amp;day=tuesday" data-toggle="modal" style="display:none" id="tuesday-dinner-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-dinner-tuesday">  </div>
+										<input type="hidden" id="tuesday_dinner_id" name="data[tuesday][dinner][id]" value="156">
+									</div>
+																		<div class="meal-plan-information-single" id="tuesday_post_workout">
+																			<div style="display:none;" class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu"></div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=&amp;mpc=post_workout&amp;day=tuesday" data-toggle="modal" style="display:none;" class="change-this-post_workout-tuesday change-this-eat"> Change </div>
+										
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=&amp;mpc=post_workout&amp;day=tuesday" data-toggle="modal" style="display:none" id="tuesday-post_workout-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-post_workout-tuesday">  </div>
+										<input type="hidden" id="tuesday_post_workout_id" name="data[tuesday][post_workout][id]" value="">
+									</div>
+									                              
+							  
+                            </div>
+                            </td>
+                            
+                            </tr></tbody></table>
+                          </div>
+						  						  
+						  
+                          <div style="position:relative;" id="wednesday_wrappper" class="meal-plan-information">
+                          <table width="100%" cellspacing="0" cellpadding="0">
+                           <tbody>
+                           <tr>
+                           <td width="14.2%" bgcolor="#f85f01" background="#f85f01">
+                            
+                            <div style="background:#f85f01;" class="meal-plan-day">
+                              <div style="display:block" class="wednesday-change change-fasting"> 
+							  
+																<span data-day="wednesday" data-type="prev" class="prev">&lt;</span><span data-current="3" id="wednesday-liczba"> 3 </span><span data-day="wednesday" data-type="next" class="next">&gt;</span> 
+							  
+							  </div>
+                              <div class="meal-plan-day-name"> Wednesday </div>
+                              <div class="fasting-day">
+                                <input type="hidden" value="0" name="data[wednesday][is_fasting]" id="_wednesday-fasting-checkbox">
+                                <input type="checkbox" value="1" data-day="wednesday" name="data[wednesday][is_fasting]" class="disable fasting-checkbox" checked="checked" id="wednesday-fasting-checkbox">
+                                <input type="hidden" value="150" name="data[wednesday][fasting_id]" id="wednesday-fasting_plan-hidden">
+                                <span> Fasting day </span> </div>
+                            </div>
+                            </td>
+                            <td width="85.8%">
+                            <div class="lists">
+							
+							
+																<div class="meal-plan-information-single" id="wednesday_breakfast">
+																			<div class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu">Butterbean, mackerel and egg salad</div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=121&amp;mpc=breakfast&amp;day=wednesday" data-toggle="modal" style="display:none" class="change-this-breakfast-wednesday change-this-eat"> Change </div>
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=121&amp;mpc=breakfast&amp;day=wednesday" data-toggle="modal" style="display:none" id="wednesday-breakfast-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-breakfast-wednesday">  </div>
+										<input type="hidden" id="wednesday_breakfast_id" name="data[wednesday][breakfast][id]" value="121">
+									</div>
+																		<div class="meal-plan-information-single" id="wednesday_breakfast_snack">
+																			<div class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu">Snack 1</div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=151&amp;mpc=breakfast_snack&amp;day=wednesday" data-toggle="modal" style="display:none" class="change-this-breakfast_snack-wednesday change-this-eat"> Change </div>
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=151&amp;mpc=breakfast_snack&amp;day=wednesday" data-toggle="modal" style="display:none" id="wednesday-breakfast_snack-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-breakfast_snack-wednesday">  </div>
+										<input type="hidden" id="wednesday_breakfast_snack_id" name="data[wednesday][breakfast_snack][id]" value="151">
+									</div>
+																		<div class="meal-plan-information-single" id="wednesday_lunch">
+																			<div class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu">Butterbean, mackerel and egg salad</div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=121&amp;mpc=lunch&amp;day=wednesday" data-toggle="modal" style="display:none" class="change-this-lunch-wednesday change-this-eat"> Change </div>
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=121&amp;mpc=lunch&amp;day=wednesday" data-toggle="modal" style="display:none" id="wednesday-lunch-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-lunch-wednesday">  </div>
+										<input type="hidden" id="wednesday_lunch_id" name="data[wednesday][lunch][id]" value="121">
+									</div>
+																		<div class="meal-plan-information-single" id="wednesday_lunch_snack">
+																			<div class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu">Snack 2</div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=152&amp;mpc=lunch_snack&amp;day=wednesday" data-toggle="modal" style="display:none" class="change-this-lunch_snack-wednesday change-this-eat"> Change </div>
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=152&amp;mpc=lunch_snack&amp;day=wednesday" data-toggle="modal" style="display:none" id="wednesday-lunch_snack-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-lunch_snack-wednesday">  </div>
+										<input type="hidden" id="wednesday_lunch_snack_id" name="data[wednesday][lunch_snack][id]" value="152">
+									</div>
+																		<div class="meal-plan-information-single" id="wednesday_dinner">
+																			<div class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu">Dinner 2</div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=156&amp;mpc=dinner&amp;day=wednesday" data-toggle="modal" style="display:none" class="change-this-dinner-wednesday change-this-eat"> Change </div>
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=156&amp;mpc=dinner&amp;day=wednesday" data-toggle="modal" style="display:none" id="wednesday-dinner-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-dinner-wednesday">  </div>
+										<input type="hidden" id="wednesday_dinner_id" name="data[wednesday][dinner][id]" value="156">
+									</div>
+																		<div class="meal-plan-information-single" id="wednesday_post_workout">
+																			<div style="display:none;" class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu"></div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=&amp;mpc=post_workout&amp;day=wednesday" data-toggle="modal" style="display:none;" class="change-this-post_workout-wednesday change-this-eat"> Change </div>
+										
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=&amp;mpc=post_workout&amp;day=wednesday" data-toggle="modal" style="display:none" id="wednesday-post_workout-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-post_workout-wednesday">  </div>
+										<input type="hidden" id="wednesday_post_workout_id" name="data[wednesday][post_workout][id]" value="">
+									</div>
+									                              
+							  
+                            </div>
+                            </td>
+                            
+                            </tr></tbody></table>
+                          </div>
+						  						  
+						  
+                          <div style="position:relative;" id="thursday_wrappper" class="meal-plan-information">
+                          <table width="100%" cellspacing="0" cellpadding="0">
+                           <tbody>
+                           <tr>
+                           <td width="14.2%" bgcolor="#f85f01" background="#f85f01">
+                            
+                            <div style="background:#f85f01;" class="meal-plan-day">
+                              <div style="display:none" class="thursday-change change-fasting"> 
+							  
+																<span data-day="thursday" data-type="prev" class="prev">&lt;</span><span data-current="0" id="thursday-liczba"> 0 </span><span data-day="thursday" data-type="next" class="next">&gt;</span> 
+							  
+							  </div>
+                              <div class="meal-plan-day-name"> Thursday </div>
+                              <div class="fasting-day">
+                                <input type="hidden" value="0" name="data[thursday][is_fasting]" id="_thursday-fasting-checkbox">
+                                <input type="checkbox" value="1" data-day="thursday" name="data[thursday][is_fasting]" class="fasting-checkbox" id="thursday-fasting-checkbox" disabled="disabled">
+                                <input type="hidden" value="" name="data[thursday][fasting_id]" id="thursday-fasting_plan-hidden">
+                                <span> Fasting day </span> </div>
+                            </div>
+                            </td>
+                            <td width="85.8%">
+                            <div class="lists">
+							
+							
+																<div class="meal-plan-information-single" id="thursday_breakfast">
+																			<div class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu">Butterbean, mackerel and egg salad</div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=121&amp;mpc=breakfast&amp;day=thursday" data-toggle="modal" style="display:block" class="change-this-breakfast-thursday change-this-eat"> Change </div>
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=121&amp;mpc=breakfast&amp;day=thursday" data-toggle="modal" style="display:none" id="thursday-breakfast-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-breakfast-thursday">  </div>
+										<input type="hidden" id="thursday_breakfast_id" name="data[thursday][breakfast][id]" value="121">
+									</div>
+																		<div class="meal-plan-information-single" id="thursday_breakfast_snack">
+																			<div style="display:none;" class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu"></div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=&amp;mpc=breakfast_snack&amp;day=thursday" data-toggle="modal" style="display:none;" class="change-this-breakfast_snack-thursday change-this-eat"> Change </div>
+										
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=&amp;mpc=breakfast_snack&amp;day=thursday" data-toggle="modal" style="display:block" id="thursday-breakfast_snack-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-breakfast_snack-thursday">  </div>
+										<input type="hidden" id="thursday_breakfast_snack_id" name="data[thursday][breakfast_snack][id]" value="">
+									</div>
+																		<div class="meal-plan-information-single" id="thursday_lunch">
+																			<div class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu">Butterbean, mackerel and egg salad</div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=121&amp;mpc=lunch&amp;day=thursday" data-toggle="modal" style="display:block" class="change-this-lunch-thursday change-this-eat"> Change </div>
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=121&amp;mpc=lunch&amp;day=thursday" data-toggle="modal" style="display:none" id="thursday-lunch-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-lunch-thursday">  </div>
+										<input type="hidden" id="thursday_lunch_id" name="data[thursday][lunch][id]" value="121">
+									</div>
+																		<div class="meal-plan-information-single" id="thursday_lunch_snack">
+																			<div class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu">Snack 2</div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=152&amp;mpc=lunch_snack&amp;day=thursday" data-toggle="modal" style="display:block" class="change-this-lunch_snack-thursday change-this-eat"> Change </div>
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=152&amp;mpc=lunch_snack&amp;day=thursday" data-toggle="modal" style="display:none" id="thursday-lunch_snack-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-lunch_snack-thursday">  </div>
+										<input type="hidden" id="thursday_lunch_snack_id" name="data[thursday][lunch_snack][id]" value="152">
+									</div>
+																		<div class="meal-plan-information-single" id="thursday_dinner">
+																			<div style="display:none;" class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu"></div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=&amp;mpc=dinner&amp;day=thursday" data-toggle="modal" style="display:none;" class="change-this-dinner-thursday change-this-eat"> Change </div>
+										
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=&amp;mpc=dinner&amp;day=thursday" data-toggle="modal" style="display:block" id="thursday-dinner-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-dinner-thursday">  </div>
+										<input type="hidden" id="thursday_dinner_id" name="data[thursday][dinner][id]" value="">
+									</div>
+																		<div class="meal-plan-information-single" id="thursday_post_workout">
+																			<div class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu">Post Work Out 1</div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=590&amp;mpc=post_workout&amp;day=thursday" data-toggle="modal" style="display:block" class="change-this-post_workout-thursday change-this-eat"> Change </div>
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=590&amp;mpc=post_workout&amp;day=thursday" data-toggle="modal" style="display:none" id="thursday-post_workout-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-post_workout-thursday">  </div>
+										<input type="hidden" id="thursday_post_workout_id" name="data[thursday][post_workout][id]" value="590">
+									</div>
+									                              
+							  
+                            </div>
+                            </td>
+                            
+                            </tr></tbody></table>
+                          </div>
+						  						  
+						  
+                          <div style="position:relative;" id="friday_wrappper" class="meal-plan-information">
+                          <table width="100%" cellspacing="0" cellpadding="0">
+                           <tbody>
+                           <tr>
+                           <td width="14.2%" bgcolor="#f85f01" background="#f85f01">
+                            
+                            <div style="background:#f85f01;" class="meal-plan-day">
+                              <div style="display:none" class="friday-change change-fasting"> 
+							  
+																<span data-day="friday" data-type="prev" class="prev">&lt;</span><span data-current="0" id="friday-liczba"> 0 </span><span data-day="friday" data-type="next" class="next">&gt;</span> 
+							  
+							  </div>
+                              <div class="meal-plan-day-name"> Friday </div>
+                              <div class="fasting-day">
+                                <input type="hidden" value="0" name="data[friday][is_fasting]" id="_friday-fasting-checkbox">
+                                <input type="checkbox" value="1" data-day="friday" name="data[friday][is_fasting]" class="fasting-checkbox" id="friday-fasting-checkbox" disabled="disabled">
+                                <input type="hidden" value="" name="data[friday][fasting_id]" id="friday-fasting_plan-hidden">
+                                <span> Fasting day </span> </div>
+                            </div>
+                            </td>
+                            <td width="85.8%">
+                            <div class="lists">
+							
+							
+																<div class="meal-plan-information-single" id="friday_breakfast">
+																			<div class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu">Butterbean, mackerel and egg salad</div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=121&amp;mpc=breakfast&amp;day=friday" data-toggle="modal" style="display:block" class="change-this-breakfast-friday change-this-eat"> Change </div>
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=121&amp;mpc=breakfast&amp;day=friday" data-toggle="modal" style="display:none" id="friday-breakfast-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-breakfast-friday">  </div>
+										<input type="hidden" id="friday_breakfast_id" name="data[friday][breakfast][id]" value="121">
+									</div>
+																		<div class="meal-plan-information-single" id="friday_breakfast_snack">
+																			<div class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu">Snack 2</div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=152&amp;mpc=breakfast_snack&amp;day=friday" data-toggle="modal" style="display:block" class="change-this-breakfast_snack-friday change-this-eat"> Change </div>
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=152&amp;mpc=breakfast_snack&amp;day=friday" data-toggle="modal" style="display:none" id="friday-breakfast_snack-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-breakfast_snack-friday">  </div>
+										<input type="hidden" id="friday_breakfast_snack_id" name="data[friday][breakfast_snack][id]" value="152">
+									</div>
+																		<div class="meal-plan-information-single" id="friday_lunch">
+																			<div class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu">Butterbean, mackerel and egg salad</div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=121&amp;mpc=lunch&amp;day=friday" data-toggle="modal" style="display:block" class="change-this-lunch-friday change-this-eat"> Change </div>
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=121&amp;mpc=lunch&amp;day=friday" data-toggle="modal" style="display:none" id="friday-lunch-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-lunch-friday">  </div>
+										<input type="hidden" id="friday_lunch_id" name="data[friday][lunch][id]" value="121">
+									</div>
+																		<div class="meal-plan-information-single" id="friday_lunch_snack">
+																			<div class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu">Snack 1</div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=151&amp;mpc=lunch_snack&amp;day=friday" data-toggle="modal" style="display:block" class="change-this-lunch_snack-friday change-this-eat"> Change </div>
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=151&amp;mpc=lunch_snack&amp;day=friday" data-toggle="modal" style="display:none" id="friday-lunch_snack-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-lunch_snack-friday">  </div>
+										<input type="hidden" id="friday_lunch_snack_id" name="data[friday][lunch_snack][id]" value="151">
+									</div>
+																		<div class="meal-plan-information-single" id="friday_dinner">
+																			<div class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu">Butterbean, mackerel and egg salad</div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=375&amp;mpc=dinner&amp;day=friday" data-toggle="modal" style="display:block" class="change-this-dinner-friday change-this-eat"> Change </div>
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=375&amp;mpc=dinner&amp;day=friday" data-toggle="modal" style="display:none" id="friday-dinner-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-dinner-friday">  </div>
+										<input type="hidden" id="friday_dinner_id" name="data[friday][dinner][id]" value="375">
+									</div>
+																		<div class="meal-plan-information-single" id="friday_post_workout">
+																			<div style="display:none;" class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu"></div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=&amp;mpc=post_workout&amp;day=friday" data-toggle="modal" style="display:none;" class="change-this-post_workout-friday change-this-eat"> Change </div>
+										
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=&amp;mpc=post_workout&amp;day=friday" data-toggle="modal" style="display:block" id="friday-post_workout-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-post_workout-friday">  </div>
+										<input type="hidden" id="friday_post_workout_id" name="data[friday][post_workout][id]" value="">
+									</div>
+									                              
+							  
+                            </div>
+                            </td>
+                            
+                            </tr></tbody></table>
+                          </div>
+						  						  
+						  
+                          <div style="position:relative;" id="saturday_wrappper" class="meal-plan-information">
+                          <table width="100%" cellspacing="0" cellpadding="0">
+                           <tbody>
+                           <tr>
+                           <td width="14.2%" bgcolor="#f85f01" background="#f85f01">
+                            
+                            <div style="background:#f85f01;" class="meal-plan-day">
+                              <div style="display:none" class="saturday-change change-fasting"> 
+							  
+																<span data-day="saturday" data-type="prev" class="prev">&lt;</span><span data-current="0" id="saturday-liczba"> 0 </span><span data-day="saturday" data-type="next" class="next">&gt;</span> 
+							  
+							  </div>
+                              <div class="meal-plan-day-name"> Saturday </div>
+                              <div class="fasting-day">
+                                <input type="hidden" value="0" name="data[saturday][is_fasting]" id="_saturday-fasting-checkbox">
+                                <input type="checkbox" value="1" data-day="saturday" name="data[saturday][is_fasting]" class="fasting-checkbox" id="saturday-fasting-checkbox" disabled="disabled">
+                                <input type="hidden" value="" name="data[saturday][fasting_id]" id="saturday-fasting_plan-hidden">
+                                <span> Fasting day </span> </div>
+                            </div>
+                            </td>
+                            <td width="85.8%">
+                            <div class="lists">
+							
+							
+																<div class="meal-plan-information-single" id="saturday_breakfast">
+																			<div class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu">Butterbean, mackerel and egg salad</div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=121&amp;mpc=breakfast&amp;day=saturday" data-toggle="modal" style="display:block" class="change-this-breakfast-saturday change-this-eat"> Change </div>
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=121&amp;mpc=breakfast&amp;day=saturday" data-toggle="modal" style="display:none" id="saturday-breakfast-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-breakfast-saturday">  </div>
+										<input type="hidden" id="saturday_breakfast_id" name="data[saturday][breakfast][id]" value="121">
+									</div>
+																		<div class="meal-plan-information-single" id="saturday_breakfast_snack">
+																			<div class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu">Snack 1</div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=151&amp;mpc=breakfast_snack&amp;day=saturday" data-toggle="modal" style="display:block" class="change-this-breakfast_snack-saturday change-this-eat"> Change </div>
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=151&amp;mpc=breakfast_snack&amp;day=saturday" data-toggle="modal" style="display:none" id="saturday-breakfast_snack-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-breakfast_snack-saturday">  </div>
+										<input type="hidden" id="saturday_breakfast_snack_id" name="data[saturday][breakfast_snack][id]" value="151">
+									</div>
+																		<div class="meal-plan-information-single" id="saturday_lunch">
+																			<div class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu">Butterbean, mackerel and egg salad</div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=121&amp;mpc=lunch&amp;day=saturday" data-toggle="modal" style="display:block" class="change-this-lunch-saturday change-this-eat"> Change </div>
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=121&amp;mpc=lunch&amp;day=saturday" data-toggle="modal" style="display:none" id="saturday-lunch-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-lunch-saturday">  </div>
+										<input type="hidden" id="saturday_lunch_id" name="data[saturday][lunch][id]" value="121">
+									</div>
+																		<div class="meal-plan-information-single" id="saturday_lunch_snack">
+																			<div class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu">Snack 1</div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=151&amp;mpc=lunch_snack&amp;day=saturday" data-toggle="modal" style="display:block" class="change-this-lunch_snack-saturday change-this-eat"> Change </div>
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=151&amp;mpc=lunch_snack&amp;day=saturday" data-toggle="modal" style="display:none" id="saturday-lunch_snack-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-lunch_snack-saturday">  </div>
+										<input type="hidden" id="saturday_lunch_snack_id" name="data[saturday][lunch_snack][id]" value="151">
+									</div>
+																		<div class="meal-plan-information-single" id="saturday_dinner">
+																			<div class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu">Dinner 2</div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=156&amp;mpc=dinner&amp;day=saturday" data-toggle="modal" style="display:block" class="change-this-dinner-saturday change-this-eat"> Change </div>
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=156&amp;mpc=dinner&amp;day=saturday" data-toggle="modal" style="display:none" id="saturday-dinner-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-dinner-saturday">  </div>
+										<input type="hidden" id="saturday_dinner_id" name="data[saturday][dinner][id]" value="156">
+									</div>
+																		<div class="meal-plan-information-single" id="saturday_post_workout">
+																			<div style="display:none;" class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu"></div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=&amp;mpc=post_workout&amp;day=saturday" data-toggle="modal" style="display:none;" class="change-this-post_workout-saturday change-this-eat"> Change </div>
+										
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=&amp;mpc=post_workout&amp;day=saturday" data-toggle="modal" style="display:block" id="saturday-post_workout-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-post_workout-saturday">  </div>
+										<input type="hidden" id="saturday_post_workout_id" name="data[saturday][post_workout][id]" value="">
+									</div>
+									                              
+							  
+                            </div>
+                            </td>
+                            
+                            </tr></tbody></table>
+                          </div>
+						  						  
+						  
+                          <div style="position:relative;" id="sunday_wrappper" class="meal-plan-information">
+                          <table width="100%" cellspacing="0" cellpadding="0">
+                           <tbody>
+                           <tr>
+                           <td width="14.2%" bgcolor="#f85f01" background="#f85f01">
+                            
+                            <div style="background:#f85f01;" class="meal-plan-day">
+                              <div style="display:none" class="sunday-change change-fasting"> 
+							  
+																<span data-day="sunday" data-type="prev" class="prev">&lt;</span><span data-current="0" id="sunday-liczba"> 0 </span><span data-day="sunday" data-type="next" class="next">&gt;</span> 
+							  
+							  </div>
+                              <div class="meal-plan-day-name"> Sunday </div>
+                              <div class="fasting-day">
+                                <input type="hidden" value="0" name="data[sunday][is_fasting]" id="_sunday-fasting-checkbox">
+                                <input type="checkbox" value="1" data-day="sunday" name="data[sunday][is_fasting]" class="fasting-checkbox" id="sunday-fasting-checkbox" disabled="disabled">
+                                <input type="hidden" value="" name="data[sunday][fasting_id]" id="sunday-fasting_plan-hidden">
+                                <span> Fasting day </span> </div>
+                            </div>
+                            </td>
+                            <td width="85.8%">
+                            <div class="lists">
+							
+							
+																<div class="meal-plan-information-single" id="sunday_breakfast">
+																			<div class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu">Butterbean, mackerel and egg salad</div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=121&amp;mpc=breakfast&amp;day=sunday" data-toggle="modal" style="display:block" class="change-this-breakfast-sunday change-this-eat"> Change </div>
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=121&amp;mpc=breakfast&amp;day=sunday" data-toggle="modal" style="display:none" id="sunday-breakfast-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-breakfast-sunday">  </div>
+										<input type="hidden" id="sunday_breakfast_id" name="data[sunday][breakfast][id]" value="121">
+									</div>
+																		<div class="meal-plan-information-single" id="sunday_breakfast_snack">
+																			<div class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu">Snack 1</div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=151&amp;mpc=breakfast_snack&amp;day=sunday" data-toggle="modal" style="display:block" class="change-this-breakfast_snack-sunday change-this-eat"> Change </div>
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=151&amp;mpc=breakfast_snack&amp;day=sunday" data-toggle="modal" style="display:none" id="sunday-breakfast_snack-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-breakfast_snack-sunday">  </div>
+										<input type="hidden" id="sunday_breakfast_snack_id" name="data[sunday][breakfast_snack][id]" value="151">
+									</div>
+																		<div class="meal-plan-information-single" id="sunday_lunch">
+																			<div class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu">Butterbean, mackerel and egg salad</div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=121&amp;mpc=lunch&amp;day=sunday" data-toggle="modal" style="display:block" class="change-this-lunch-sunday change-this-eat"> Change </div>
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=121&amp;mpc=lunch&amp;day=sunday" data-toggle="modal" style="display:none" id="sunday-lunch-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-lunch-sunday">  </div>
+										<input type="hidden" id="sunday_lunch_id" name="data[sunday][lunch][id]" value="121">
+									</div>
+																		<div class="meal-plan-information-single" id="sunday_lunch_snack">
+																			<div class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu">Snack 2</div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=152&amp;mpc=lunch_snack&amp;day=sunday" data-toggle="modal" style="display:block" class="change-this-lunch_snack-sunday change-this-eat"> Change </div>
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=152&amp;mpc=lunch_snack&amp;day=sunday" data-toggle="modal" style="display:none" id="sunday-lunch_snack-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-lunch_snack-sunday">  </div>
+										<input type="hidden" id="sunday_lunch_snack_id" name="data[sunday][lunch_snack][id]" value="152">
+									</div>
+																		<div class="meal-plan-information-single" id="sunday_dinner">
+																			<div class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu">Dinner 1</div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=155&amp;mpc=dinner&amp;day=sunday" data-toggle="modal" style="display:block" class="change-this-dinner-sunday change-this-eat"> Change </div>
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=155&amp;mpc=dinner&amp;day=sunday" data-toggle="modal" style="display:none" id="sunday-dinner-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-dinner-sunday">  </div>
+										<input type="hidden" id="sunday_dinner_id" name="data[sunday][dinner][id]" value="155">
+									</div>
+																		<div class="meal-plan-information-single" id="sunday_post_workout">
+																			<div class="title-meal-plan-single">
+										  <div class="wyslij-do-przepisu">Post Work Out 1</div>
+										</div>
+										<div data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=590&amp;mpc=post_workout&amp;day=sunday" data-toggle="modal" style="display:block" class="change-this-post_workout-sunday change-this-eat"> Change </div>
+										<a data-target="#myModal" href="http://192.168.0.34/intenseburn/wp-admin/admin-ajax.php?action=select_recipe&amp;current_recipe_id=590&amp;mpc=post_workout&amp;day=sunday" data-toggle="modal" style="display:none" id="sunday-post_workout-link_plan">&gt; Link &lt;</a>
+																					<div class="new-name-to-eat" id="new-name-to-post_workout-sunday">  </div>
+										<input type="hidden" id="sunday_post_workout_id" name="data[sunday][post_workout][id]" value="590">
+									</div>
+									                              
+							  
+                            </div>
+                            </td>
+                            
+                            </tr></tbody></table>
+                          </div>
+						                            <div class="clear"></div>
+                   </div>
+                      </div>
+                    </div>
+                    <div class="submit-area">
+                      <input type="submit" name="update_meal" value="SAVE">
+                    </div>
+                  </form>
+                  </td>
+                  </tr>
+                  </tbody></table>
+                  
+				</div>
+</body>
+</html>
