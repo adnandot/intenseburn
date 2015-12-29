@@ -56,8 +56,8 @@ function unite_post_nav() {
 		<h1 class="screen-reader-text"><?php _e( 'Post navigation', 'unite' ); ?></h1>
 		<div class="nav-links">
 			<?php
-				previous_post_link( '<div class="nav-previous">%link</div>', _x( '<i class="fa fa-chevron-left"></i> %title', 'Previous post link', 'unite' ) );
-				next_post_link(     '<div class="nav-next">%link</div>',     _x( '%title <i class="fa fa-chevron-right"></i>', 'Next post link',     'unite' ) );
+				previous_post_link( '<div class="nav-previous">%link</div>', _x( '<i class="fa fa-chevron-left"></i> Prev', 'Previous post link', 'unite' ) );
+				next_post_link(     '<div class="nav-next">%link</div>',     _x( 'Next <i class="fa fa-chevron-right"></i>', 'Next post link',     'unite' ) );
 			?>
 		</div><!-- .nav-links -->
 	</nav><!-- .navigation -->

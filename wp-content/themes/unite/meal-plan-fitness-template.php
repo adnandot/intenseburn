@@ -96,6 +96,8 @@ if( !empty($_POST) && isset($_POST['mail_meal_plan'])  ){
 	
 	
 }
+
+
 if( !empty($_POST) && isset($_POST['change_name']) ){
 	//pr($_POST);	die;
 	
@@ -108,6 +110,9 @@ if( !empty($_POST) && isset($_POST['change_name']) ){
 		// Update the post into the database
 		wp_update_post( $my_post );
 		
+		$current_meal_plan = $_POST['meal_plan_id'];
+		setCurrentMealPlan( $current_meal_plan, $user_id);
+		
 		$success = 'Meal Plan renamed successfully.';
 	}
 	
@@ -115,6 +120,7 @@ if( !empty($_POST) && isset($_POST['change_name']) ){
 }
 if( !empty($_POST) && isset($_POST['change_meal_plan']) ){
 	
+	$current_meal_plan = $_POST['meal_plan_select'];
 	setCurrentMealPlan( $_POST['meal_plan_select'], $user_id);
 	$success = 'Current Meal Plan changed successfully.';
 }
