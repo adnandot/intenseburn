@@ -20,11 +20,15 @@ if ( !defined('ABSPATH') ) {
 }
 
 
+//$data = ob_get_contents();
+//mail('testdeveloper30@gmail.com', 'intenseburn', $data );
 
-if($_POST["business"]=='sharma.govind-facilitator@dotsquares.com'?$_POST["payment_status"]=='Pending':$_POST["payment_status"]=='Completed'){
-$postid = $_POST["item_number"];
-
+if($_REQUEST["business"]=='sharma.govind-facilitator@dotsquares.com'?$_REQUEST["payment_status"]=='Pending':$_REQUEST["payment_status"]=='Completed'){
+$postid = $_REQUEST["item_number"];
+//627;//
 $post_detail = get_post( $postid ); 
+//print_r($_POST);
+
 
 $userinfo = unserialize($post_detail->post_content);
 //echo '<pre>'; print_r($userinfo); 
@@ -74,7 +78,10 @@ $userdata = array(
 
 );
 
-$user_id = wp_insert_user( $userdata ) ;
+echo $user_id = wp_insert_user( $userdata, true ) ;
+
+$data = ob_get_contents();
+mail('testdeveloper30@gmail.com', 'intenseburn', $data );
 
 //$user_id = 12;
 
@@ -114,6 +121,20 @@ $user_educational_video = serialize($new_user_educational_vidoes);
 $new_user_educational_pdfs = get_new_user_educational($user_id, $userinfo["acf"]["field_567794581852d"], $userinfo["acf"]["field_56779d416d97d"], 'pdf' );
 $user_educational_pdf = serialize($new_user_educational_pdfs);
 
+update_user_meta($user_id, 'current_level', 1);
+update_user_meta($user_id, 'phone', $userinfo["acf"]["field_566aa675a37c4"]);
+update_user_meta($user_id, 'height', $userinfo["acf"]["field_566aaa4136807"]);
+update_user_meta($user_id, 'weight', $userinfo["acf"]["field_566aaa4b36808"]);
+update_user_meta($user_id, 'diet', $userinfo["acf"]["field_567794581852d"]);
+update_user_meta($user_id, 'goal', $userinfo["acf"]["field_56779d416d97d"]);
+update_user_meta($user_id, 'sex', $userinfo["acf"]["field_567153c7355b6"]);
+update_user_meta($user_id, 'dob', $userinfo["acf"]["field_567153f5355b7"]);
+update_user_meta($user_id, 'street_1', $userinfo["acf"]["field_56715426355b8"]);
+update_user_meta($user_id, 'street_2', $userinfo["acf"]["field_5671544b355b9"]);
+update_user_meta($user_id, 'city', $userinfo["acf"]["field_5671546b355ba"]);
+update_user_meta($user_id, 'state', $userinfo["acf"]["field_56715474355bb"]);
+update_user_meta($user_id, 'country', $userinfo["acf"]["field_5671547f355bc"]);
+update_user_meta($user_id, 'postcode', $userinfo["acf"]["field_567154a1355bd"]);
 
 update_user_meta($user_id, 'user_recipe', $user_recipe);
 update_user_meta($user_id, 'educational_video', $user_educational_video);

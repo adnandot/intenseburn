@@ -65,6 +65,8 @@ body .addrecipe_page .nutritional_information-table .acf-field .acf-input input{
 .logged-in #content{ background:#fff;}
 .page-template-team-template #content{ background:#141414;}
 .logged-in #content h3{ color:#000; clear:both; padding-top:30px;}
+.logged-in #content .comments-area h3{ color:#fff;}
+
 .logged-in #content .description{ color:#F00; font-size:13px;}
 .userprofile{ color:#000;}
 .tml.tml-profile{ width:70%; margin:auto;}

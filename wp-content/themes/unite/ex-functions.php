@@ -4,23 +4,24 @@
 if(isset($_POST["action"]) && $_POST["action"]=='register'){
 
 
-//if( !email_exists( $_POST['user_email'] ) && !username_exists($_POST['user_login']) ) {
-    /* stuff to do when email address exists */
- 
-	// Create post object
-	$my_post = array(
+	if( !email_exists( $_POST['user_email'] ) && !username_exists($_POST['user_login']) ) {
+		/* stuff to do when email address exists */
+	 
+		// Create post object
+		$my_post = array(
 
-	  'post_title'    => wp_strip_all_tags( $_POST['first_name'] ),
-	  'post_content'  => serialize($_POST),
-	  'post_status'   => 'publish',
-	  'post_author'   => 1,
-	  'post_type' 	  => 'register',
-	  
-	);
+		  'post_title'    => wp_strip_all_tags( $_POST['first_name'] ),
+		  'post_content'  => serialize($_POST),
+		  'post_status'   => 'publish',
+		  'post_author'   => 1,
+		  'post_type' 	  => 'register',
+		  
+		);
 
-	// Insert the post into the database
-	$post_id = wp_insert_post( $my_post );
-
+		// Insert the post into the database
+		$post_id = wp_insert_post( $my_post );
+	}
+	
 /*
 
 	?>
