@@ -4,6 +4,8 @@
     margin-top: -33px !important;
     position: relative;
 }
+.select2-drop#select2-drop { width:25% !important;}
+
 @media screen and (max-width:999px){
 	.nav ul{background-color:#f95a00}
 	.social-header{ padding-right:15px;}
@@ -71,8 +73,10 @@
 	
 	.header .header-inner .nav ul li a:hover { border-bottom:0px none #dd7418; color:#fff !important;}
     .header .header-inner .nav ul li.current_page_item a { border-bottom:0px none #dd7418; color:#fff !important;}
-
-
+	.select_butntext{ text-align:center;}
+	
+	.select2-drop#select2-drop { width:48% !important;}
+	
 }
 .navigation.post-navigation .nav-links i.fa { margin:6px 10px 0px 0; float:left;}
 .navigation.post-navigation .nav-links .nav-next i.fa { margin:6px 0px 0px 10px; float:right;}
@@ -132,7 +136,7 @@ a:hover, .recent-post li a:hover{color:#ffffff;}
 	.right_padingnone{ width:100%; padding:20px 0 0 0;}
 	.circle_images{ width:240px; height:234px; background-size:240px 234px;}
 	#slider{ min-height:120px;}
-	#slider img.nivo-main-image{ min-height:120px;}
+	#slider img.nivo-main-image{ min-height:120px; min-height:20px;}
 	.theteamtitle{ padding:13px 0; font-size:25px; line-height:17px;}
 	.title_fitness, .title_nutrition{ font-size:28px; padding:0 0 20px;}
 	.title_nutrition img, .title_fitness img{ margin:0px 12px 0 0;}
@@ -406,7 +410,7 @@ a:hover, .recent-post li a:hover{color:#ffffff;}
 	.nivo-directionNav a{ top:39% !important;}
 	.widget-column-1, .widget-column-3{ width:auto; float:none;}
 }
-@media screen and (max-width:899px) and (min-width:320px) {  section h2 { font-size: 30px !important; line-height:30px !important; }} 
+@media screen and (max-width:899px) and (min-width:320px) {  section h2 { font-size: 30px !important; line-height:30px !important; } .select2-drop#select2-drop { width:89% !important;}} 
 @media screen and (max-width:979px) and (min-width:720px) { 
 	*{box-sizing:border-box;}
 	.left{ float:left;}
@@ -505,6 +509,12 @@ a:hover, .recent-post li a:hover{color:#ffffff;}
 	header .social-header{ float:left; width:60%;}
 	.theteampage .team-cat-nutritions, .theteampage .team-cat-fitness{ min-height:10px;}	
 	}
+	
+@media screen and (max-width:768px){ .select2-drop#select2-drop { width:94.7% !important; left:2.9% !important; width:94.4% !important;} }
+@media screen and (max-width:508px){ .select2-drop#select2-drop { width:87.5% !important; left:5.9% !important; width:88.4% !important;} }
+
+
+	
 @media screen and (min-width: 980px) {
 	.header .header-inner .nav ul li ul{display:none; z-index:2;}
 	.header .header-inner .nav ul li:hover > ul{display:block; width:200px; position:absolute; left:0; text-align:left;}
@@ -590,6 +600,7 @@ a:hover, .recent-post li a:hover{color:#ffffff;}
 	.tml.tml-profile .form-table{ width:100%;}
 	.tml.tml-profile .form-table .acf-label{ width:24%;}
 	.tml.tml-profile .form-table .acf-input-wrap input{ width:75%;}
+	#select2-drop.select2-drop{ width:48% !important; left:33.3% !important;}
 	.form-area .userprofile .description{ padding-left:240px;}
 	.tml-profile .submit-area{ margin-left:33%;} 
 	.receipysearch div.search-button{ width:32%; float:right;  margin:10px 19px 0 0;}
@@ -695,13 +706,13 @@ a:hover, .recent-post li a:hover{color:#ffffff;}
 	h2.section_title{font-size:31px !important;}
 		.container_once{ padding:55px 0;}
 	#oncejointyou{ padding:30px 0 0 20px;}
-	#primary.col-sm-12.col-md-12.pull-left {
-    margin-left: -4%;}
+	#primary.col-sm-12.col-md-12.pull-left {    margin-left: -4%;}
 		
 }
 
 @media only screen and (min-width : 999px) and (max-width : 1366px)  {
 	.container{ width:100%; padding:0 15px;}
 	.content-area	{ width:100%;}
+	.select2-drop#select2-drop { width:33% !important;}
 	}
 /*616*/
