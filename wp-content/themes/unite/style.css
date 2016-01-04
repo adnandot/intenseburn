@@ -184,6 +184,31 @@ hr.section-divider:after { z-index:10000; content:"\f004"; font-family:FontAweso
 .site-info a:hover { color:#999;}
 .site-info { color:#999; font-size:12px;}
 .footer-nav.nav > li > a:hover { background-color:transparent;}
+.tml-submit-wrap > input{ background: #f85f01 none repeat scroll 0 0;
+    border-color: #ce4e00 !important;
+    border-radius: 10px;
+    border-style: none none solid;
+    border-width: medium medium 5px;
+    color: #fff;
+    font-size: 20px;
+    height: 55px;
+    min-width: 230px;
+    text-align: center;
+    text-transform: uppercase;
+	}
+	.tml-submit-wrap > input:hover{ background: #cd2300 none repeat scroll 0 0;
+    border-bottom: 5px solid #ce4e00;
+    border-radius: 10px;
+    transform: scaleX(1);}
+.page-id-128 .tml {
+    max-width: 600px;
+	margin:0 auto;
+}
+.tml .message {
+    background-color: #f85f01;
+    border: 0px solid #e6db55;
+	color:#fff;
+}
 
 @media (max-width: 767px) {
 	.site-info, .copyright { text-align:center;}
@@ -227,3 +252,8 @@ hr.section-divider:after { z-index:10000; content:"\f004"; font-family:FontAweso
 /*----- abhisingh ---------------*/
 .page-template-login-template .acf-field .acf-input{ clear: both; }
 /*877*/
+
+#loginform .field_key-field_566aa5a2072b2{ display:none;}
+#loginform label.error{ font-size: 16px;     clear: both;     color: red;     padding-top: 5px;}
+#loginform p{ clear: both;}
+

@@ -220,4 +220,9 @@ Theme My Login will always look in your theme's directory first, before using th
 			</a>
 		</div>
 	</form>
+	<script type="text/javascript">
+	jQuery(document).ready(function(){
+		jQuery('#acf-field_566aa5a2072b2').attr('disabled', true);
+	});
+	</script>
 </div>

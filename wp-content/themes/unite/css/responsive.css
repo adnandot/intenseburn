@@ -1,3 +1,9 @@
+.addrecipe_page .acf-repeater .acf-input-table td.remove .acf-repeater-add-row {
+    margin-bottom: 24px;
+    margin-left: 16px !important;
+    margin-top: -33px !important;
+    position: relative;
+}
 @media screen and (max-width:999px){
 	.nav ul{background-color:#f95a00}
 	.social-header{ padding-right:15px;}
@@ -308,6 +314,27 @@ a:hover, .recent-post li a:hover{color:#ffffff;}
 	.text-search{ margin:0px;}  
 	.change-new-mealplan form input.input-100{ float:none; width:100% !important;}
 	.mealplan td{ display:block; width:100%;}
+	.logged-in #content .comments-area h3 {
+    color: #fff;
+    font-size: 25px;
+    line-height: 30px;
+	padding-top: 0;
+	}
+	.comment-list, ol.comment-list{ overflow:hidden;}
+	.comment .comment-body{padding:14px;}
+	.vcard .avatar {
+    float: left;
+    left: 29px;
+    position: inherit;
+    top: 29px;
+	margin-right: 5px;
+}
+.comment-list .children{padding:0; border:none;}
+.entry-content.receipiimage{margin: 0 auto;}
+.starttodaypage h2.section_title {
+    font-size: 20px;
+}
+.circle_images{margin:0 auto;}
 	
 	}
 @media screen and (max-width:719px) and (min-width:320px) {
@@ -490,6 +517,10 @@ a:hover, .recent-post li a:hover{color:#ffffff;}
 	.memberarea{ clear:both;}
 	.success{ background:#fff; color:#063; font-weight:700; padding:20px 0; margin-bottom:15px; text-align:center; font-size:30px; }
 
+@media only screen and (min-width : 768px) and (max-width : 1024px){
+.single-what-time-eat{width: 33%;}
+}	
+	
 @media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
 	.header .header-inner .nav ul li.current_page_item a span{ color:#fff;}
 	.header .header-inner .nav ul li a span, .header .header-inner .nav ul li a span:hover{ color:#fff !important;}
@@ -535,7 +566,7 @@ a:hover, .recent-post li a:hover{color:#ffffff;}
 	#content .membershippage{ margin:auto;}
 	.border_right{ border-right:0px none; padding:0px;}
 	.theteampage .page-header{ padding-top:15px;}
-	.padingrightnond{ width:50%; padding:0px 18px;}
+	.padingrightnond{ width:49%; padding:0px 18px;}
 	.right_padingnone{ width:32%; padding:20px 0px 20px 0px;}
 	.padingrightnone{ width:123px;  }
 	.circle_images{ height:210px; width:215px; background-size:210px 210px; }
@@ -586,6 +617,7 @@ a:hover, .recent-post li a:hover{color:#ffffff;}
 	h2.section_title{font-size:24px !important;}
 	.container_once{ padding:55px 0;}
 	#oncejointyou{ padding:30px 0 0 20px;}
+	
 }
 
 @media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {
@@ -609,7 +641,7 @@ a:hover, .recent-post li a:hover{color:#ffffff;}
 	.da-slide h2{ font-size:34px; left:0px; text-align:center;}
 	.ramka img{ margin:0px;}
 	.black-max .ramka img{ margin:0 0px 45px 0; height:155px; width:100%;}
-	.padingrightnond{ width:54%; padding:0px 18px;}
+	.padingrightnond{ width:53%; padding:0px 18px;}
 	.right_padingnone{ width:32%; padding:20px 0px 20px 0px;}
 	.padingrightnone{ width:123px;  }
 	.loginlostpass ul.tml-action-links li a{ min-width:290px;}
@@ -663,6 +695,8 @@ a:hover, .recent-post li a:hover{color:#ffffff;}
 	h2.section_title{font-size:31px !important;}
 		.container_once{ padding:55px 0;}
 	#oncejointyou{ padding:30px 0 0 20px;}
+	#primary.col-sm-12.col-md-12.pull-left {
+    margin-left: -4%;}
 		
 }
 

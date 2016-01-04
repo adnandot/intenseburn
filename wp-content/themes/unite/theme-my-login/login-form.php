@@ -20,11 +20,11 @@
 					else
 						_e( 'Username', 'theme-my-login' );
 				?></label>
-				<input type="text" name="log" id="user_login<?php $template->the_instance(); ?>" class="input" value="<?php $template->the_posted_value( 'log' ); ?>" size="20" />
+				<input type="text" name="log" id="user_login<?php $template->the_instance(); ?>" class="input" value="<?php $template->the_posted_value( 'log' ); ?>" size="20" required />
 				</p>
 				<p class="login-password">
 					<label for="user_pass<?php $template->the_instance(); ?>"><?php _e( 'Password', 'theme-my-login' ); ?></label>
-					<input type="password" name="pwd" id="user_pass<?php $template->the_instance(); ?>" class="input" value="" size="20" autocomplete="off" />
+					<input type="password" name="pwd" id="user_pass<?php $template->the_instance(); ?>" class="input" value="" size="20" autocomplete="off" required />
 				</p>
 				
 				<?php do_action( 'login_form' ); ?>
@@ -39,6 +39,15 @@
 			</form>
 			<div class="loginlostpass"><?php $template->the_action_links( array( 'login' => false ) ); ?></div>
 		</div>
+		
+		<link rel='stylesheet' id='skt_fitness-nivo-style-css_1'  href='<?php bloginfo('template_directory'); ?>/fonts/fonts.css' type='text/css' media='all'>
+		
+		<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/jquery.validate.min.js"></script>
+		<script type="text/javascript">
+		jQuery(document).ready(function(){
+			jQuery('#loginform<?php $template->the_instance(); ?>').validate();
+		} );
+		</script>
 	</div>
 </section>
 </div></div><a href="javascript:;" class="fancybox-item fancybox-close" title="Close"></a></div></div></div>

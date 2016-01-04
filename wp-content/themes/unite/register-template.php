@@ -36,6 +36,17 @@ $args = array(
 		
     );
 	
+	if(isset($_GET['subs'])) {
+				$args['meta_query'] = array(  
+						   array(
+							 'key' => 'subscription',                  //(string) - Custom field key.
+							 'value' => $_GET['subs'],                 //(string/array) - Custom field value (Note: Array support is limited to a compare value of 'IN', 'NOT IN', 'BETWEEN', or 'NOT BETWEEN')
+							 'type' => 'CHAR',                  //(string) - Custom field type. Possible values are 'NUMERIC', 'BINARY', 'CHAR', 'DATE', 'DATETIME', 'DECIMAL', 'SIGNED', 'TIME', 'UNSIGNED'. Default value is 'CHAR'.
+							 'compare' => '=',                  //(string) - Operator to test. Possible values are '=', '!=', '>', '>=', '<', '<=', 'LIKE', 'NOT LIKE', 'IN', 'NOT IN', 'BETWEEN', 'NOT BETWEEN'. Default value is '='.
+						   )
+				   );
+			}
+	
 	//echo '<pre>';print_r($args);
 	
     $my_query = new WP_Query($args);
@@ -77,8 +88,8 @@ $args = array(
 	
     <div class="loginlostpass">
 	<ul class="tml-action-links">
-<li><a rel="nofollow" href="http://192.168.0.34/intenseburn/login/">LOGIN</a></li>
-<li><a rel="nofollow" href="http://192.168.0.34/intenseburn/lostpassword/">Lost Password</a></li>
+<li><a rel="nofollow" href="<?php echo site_url('/login');?>">LOGIN</a></li>
+<li><a rel="nofollow" href="<?php echo site_url('/lostpassword');?>">Lost Password</a></li>
 </ul>
             </div>
 			

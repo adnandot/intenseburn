@@ -23,6 +23,7 @@ if ( !defined('ABSPATH') ) {
 //$data = ob_get_contents();
 //mail('testdeveloper30@gmail.com', 'intenseburn', $data );
 
+
 if($_REQUEST["business"]=='sharma.govind-facilitator@dotsquares.com'?$_REQUEST["payment_status"]=='Pending':$_REQUEST["payment_status"]=='Completed'){
 $postid = $_REQUEST["item_number"];
 //627;//
@@ -123,12 +124,19 @@ $user_educational_pdf = serialize($new_user_educational_pdfs);
 
 update_user_meta($user_id, 'current_level', 1);
 update_user_meta($user_id, 'phone', $userinfo["acf"]["field_566aa675a37c4"]);
+update_user_meta($user_id, 'first_name', $userinfo["first_name"]);
 update_user_meta($user_id, 'height', $userinfo["acf"]["field_566aaa4136807"]);
 update_user_meta($user_id, 'weight', $userinfo["acf"]["field_566aaa4b36808"]);
 update_user_meta($user_id, 'diet', $userinfo["acf"]["field_567794581852d"]);
 update_user_meta($user_id, 'goal', $userinfo["acf"]["field_56779d416d97d"]);
 update_user_meta($user_id, 'sex', $userinfo["acf"]["field_567153c7355b6"]);
-update_user_meta($user_id, 'dob', $userinfo["acf"]["field_567153f5355b7"]);
+
+$temp = explode('/', $userinfo["acf"]["field_567153f5355b7"]);
+$dob = "{$temp[2]}{$temp[1]}{$temp[0]}";
+
+update_user_meta($user_id, 'dob', $dob);
+
+
 update_user_meta($user_id, 'street_1', $userinfo["acf"]["field_56715426355b8"]);
 update_user_meta($user_id, 'street_2', $userinfo["acf"]["field_5671544b355b9"]);
 update_user_meta($user_id, 'city', $userinfo["acf"]["field_5671546b355ba"]);
@@ -159,9 +167,13 @@ $my_post = array(
 	// Insert the post into the database
 	$post_id = wp_insert_post( $my_post );
 	
-	
+
+wp_new_user_notification( $user_id, $deprecated = null, $notify = true );
 
 }
+
+
+wp_redirect(site_url('/login'));
 
 
 
